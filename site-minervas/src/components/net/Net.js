@@ -1,8 +1,7 @@
-import React, {useRef} from "react"
+import React, { useRef } from "react"
 
 import exampleimage from "../../assets/example-image.svg"
 import Text from "./Text"
-import TextField from '@material-ui/core/TextField';
 
 import "./Content.scss"
 
@@ -10,21 +9,32 @@ function Net() {
   const ref = useRef(null);
 
   const handleClick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'});
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
   }
   return (
     <div>
       <div className="net-content">
-        <Text click={() => handleClick()}/>
-          <img src={exampleimage} className="line1" alt="example1" />
-          <img src={exampleimage} className="line1" alt="example2" />
-          <img src={exampleimage} className="line1" alt="example3" />
-          <img src={exampleimage} className="line2" alt="example4" />
-          <img src={exampleimage} className="line2" alt="example5" />
-          <img src={exampleimage} className="line2" alt="example6" />
-          <img src={exampleimage} className="line3" alt="example7" />
-          <img src={exampleimage} className="line3" alt="example8" />
-          <img src={exampleimage} className="line3" alt="example9" />
+        <Text click={() => handleClick()} style={{ border: 'solid 2px red' }} />
+
+        <div style={{border: 'solid 2x red', width: '50%'}}>
+          <div style={{display: "flex", justifyContent: 'center'}}>
+            <img src={exampleimage} className="line1" alt="example1" />
+            <img src={exampleimage} className="line1" alt="example2" />
+            <img src={exampleimage} className="line1" alt="example3" />
+          </div>
+          <div style={{display: "flex", justifyContent: 'center'}}>
+            <img src={exampleimage} className="line2" alt="example4" />
+            <img src={exampleimage} className="line2" alt="example5" />
+            <img src={exampleimage} className="line2" alt="example6" />
+          </div>
+          <div style={{display: "flex", justifyContent: 'center'}}>
+            <img src={exampleimage} className="line3" alt="example7" />
+            <img src={exampleimage} className="line3" alt="example8" />
+            <img src={exampleimage} className="line3" alt="example9" />
+          </div>
+        </div>
+
+
       </div>
       {/* <div ref={ref}>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />

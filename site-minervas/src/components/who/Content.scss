@@ -2,14 +2,19 @@
 
   background-image: url('../../assets/purple-background.svg');
   display: flex;
-  width: 1910px;
-  height: 799px;
+  width: 100vw;
+  height: 1000px;
   margin-top: -10px;
   margin-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
 
-  .doctors {
+  .image-who {
     width: 484px;
-    height: 300px;
+    height: 300px;    
+  
+
   }
 
 }

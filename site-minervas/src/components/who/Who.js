@@ -13,15 +13,15 @@ function Who() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
-    <div>
       <div className="who-content">
+        <div style={{width: '60%', }}>
         <Text click={() => handleClick()}/>
-        <img src={exampleimage} className="doctors" alt="doctors" />
+        </div>
+        <div>
+        <img src={exampleimage} className="image-who" alt="imagem de quem é as minervas" />
+        </div>
       </div>
-      {/* <div ref={ref}>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-      </div> */}
-    </div>
+      
   )
 }
 
