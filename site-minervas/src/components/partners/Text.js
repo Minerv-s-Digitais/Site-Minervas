@@ -3,6 +3,8 @@ import React from "react"
 import Button from "@material-ui/core/Button"
 import { withStyles } from "@material-ui/core/styles"
 import { redirect } from "react-router-dom"
+import barras from "./../../assets/barras.svg"
+import pizza from "./../../assets/pizza-graph.svg"
 
 import "./Text.scss"
 
@@ -40,17 +42,9 @@ class Text extends React.Component {
     console.log(this.props)
 
     return (
-      <div className="content">
+      <div className="motivation-text">
         <div className="title">
-          Minerv@s Digitais
-        </div>
-        <div className="description">
-          Projeto de Extensão da UFRJ com objetivo de fomentar a presença feminina no meio tecnológico
-        </div>
-        <div className="button-box">
-          <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
-            Saiba mais
-          </ColorButton>
+          Parcerias
         </div>
       </div>
     )

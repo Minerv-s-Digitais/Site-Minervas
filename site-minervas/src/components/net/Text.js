@@ -40,17 +40,9 @@ class Text extends React.Component {
     console.log(this.props)
 
     return (
-      <div className="content">
+      <div className="text">
         <div className="title">
-          Minerv@s Digitais
-        </div>
-        <div className="description">
-          Projeto de Extensão da UFRJ com objetivo de fomentar a presença feminina no meio tecnológico
-        </div>
-        <div className="button-box">
-          <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
-            Saiba mais
-          </ColorButton>
+          Minerv@s nas redes
         </div>
       </div>
     )
