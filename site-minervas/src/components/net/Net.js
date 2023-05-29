@@ -14,8 +14,8 @@ function Net() {
   return (
     <div>
       <div className="net-content">
-        <Text click={() => handleClick()} style={{ border: 'solid 2px red' }} />
-
+        <Text click={() => handleClick()}  />
+        <div style={{ width: '98vw', display: 'flex', justifyContent: 'center'}}>
         <div style={{border: 'solid 2x red', width: '50%'}}>
           <div style={{display: "flex", justifyContent: 'center'}}>
             <img src={exampleimage} className="line1" alt="example1" />
@@ -33,6 +33,9 @@ function Net() {
             <img src={exampleimage} className="line3" alt="example9" />
           </div>
         </div>
+
+        </div>
+        
 
 
       </div>

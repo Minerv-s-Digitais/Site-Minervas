@@ -17,7 +17,13 @@ function Partners() {
     <div>
       <div className="partners-content">
         <Text click={() => handleClick()}/>
-        <Carousel />
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+          <div style={{width:'80%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <Carousel />
+        </div>
+        </div>
+        
+        
       </div>
       {/* <div ref={ref}>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />

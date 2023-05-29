@@ -40,7 +40,8 @@ class Text extends React.Component {
     console.log(this.props)
 
     return (
-      <div className="text">
+      <div style={{display: 'flex', position: 'absolute', top: '90%'}}>
+        <div className="text">
         <div className="title">
           Quem somos?
         </div>
@@ -53,6 +54,9 @@ class Text extends React.Component {
           </ColorButton>
         </div>
       </div>
+
+      </div>
+      
     )
   }
 }

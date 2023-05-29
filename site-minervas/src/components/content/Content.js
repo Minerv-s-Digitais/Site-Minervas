@@ -17,7 +17,7 @@ function Content() {
     <div>
       <div className="home-content">
         <Text click={() => handleClick()}/>
-        <img src={computer} className="doctors" alt="doctors" />
+        <img src={computer} className="imagem" alt="doctors" />
       </div>
       {/* <div ref={ref}>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />

@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button"
 import { withStyles } from "@material-ui/core/styles"
 import { redirect } from "react-router-dom"
 import barras from "./../../assets/barras.svg"
-import pizza from "./../../assets/pizza-graph.svg"
+import pizza from "./../../assets/Pizza.svg"
 
 import "./Text.scss"
 

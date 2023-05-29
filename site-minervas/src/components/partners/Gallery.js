@@ -13,13 +13,13 @@ const responsive = {
 
 const items = [
     <div className="item" data-value="1">
-        <img src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Escola SESC"/>  
+        <img style={{width: '250px'}} src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Escola SESC"/>  
     </div>,
     <div className="item" data-value="2">
-        <img src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Educa Digital"/>
+        <img style={{width: '250px'}} src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Educa Digital"/>
     </div>,
     <div className="item" data-value="3">
-        <img src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img style={{width: '250px'}} src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
     </div>,
 ];
 

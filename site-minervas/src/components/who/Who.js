@@ -14,10 +14,10 @@ function Who() {
   }
   return (
       <div className="who-content">
-        <div style={{width: '60%', }}>
+        <div style={{width: '60%', height: '600px' }}>
         <Text click={() => handleClick()}/>
         </div>
-        <div>
+        <div style={{height: '600px', display: 'flex', alignItems: 'center'}}>
         <img src={exampleimage} className="image-who" alt="imagem de quem é as minervas" />
         </div>
       </div>
