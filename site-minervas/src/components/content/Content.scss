@@ -1,13 +1,15 @@
 .home-content {
-
-  display: flex;
+  width: 100vw;
   margin-top: -10px;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
+  display: flex;
 
   .imagem {
-    height: 38vw;
-    position: relative;
-    left: -16.5%;
+    height: 51vw;
+    position: absolute;
+    right: 0px;
+    top: -60px;
+
   }
 
 }

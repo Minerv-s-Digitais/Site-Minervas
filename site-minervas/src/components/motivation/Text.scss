@@ -11,24 +11,36 @@
     color: #3F005E;
     font-weight: 800;
     font-size: 48px;
+    margin-top: 60px !important;
   }
 
   .first-motivation {
     font-family: 'Lato', sans-serif;
     display: flex;
+    gap: 5%;
+    width: 100%;
     font-weight: 300;
     font-size: 20px;
-    margin: 20px 250px 20px 0px;
+    margin: 100px 250px 20px 0px;
     text-align: justify;
+  }
+  .first-motivation-text {
+    width: 48%;
   }
 
   .second-motivation {
     font-family: 'Lato', sans-serif;
     display: flex;
+    gap: 11%;
     font-weight: 300;
     font-size: 20px;
-    margin: 20px 250px 20px 0px;
+    margin: 100px 250px 20px 0px;
     text-align: justify;
+    width: 100%; 
+    
+    .second-motivation-text{
+      width: 50%;
+    }
   }
 
   .button-box {

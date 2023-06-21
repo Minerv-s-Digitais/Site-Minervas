@@ -13,12 +13,12 @@ function Who() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
-      <div className="who-content">
-        <div style={{width: '60%', height: '600px' }}>
-        <Text click={() => handleClick()}/>
+      <div className="who-content" id="Who">
+        <div style={{width: '50%', height: '600px' }}>
+          <Text click={() => handleClick()}/>
         </div>
-        <div style={{height: '600px', display: 'flex', alignItems: 'center'}}>
-        <img src={exampleimage} className="image-who" alt="imagem de quem é as minervas" />
+        <div style={{height: '600px', width: '50%', display: 'flex', alignItems: 'center'}}>
+          <img src={exampleimage} className="image-who" alt="imagem de quem é as minervas" />
         </div>
       </div>
       

@@ -3,7 +3,7 @@ import React, { useRef } from "react"
 import exampleimage from "../../assets/example-image.svg"
 import Text from "./Text"
 
-import "./Content.scss"
+import "./Net.scss"
 
 function Net() {
   const ref = useRef(null);

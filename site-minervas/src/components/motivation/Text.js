@@ -48,12 +48,12 @@ class Text extends React.Component {
         </div>
         <div className="first-motivation">
           <img src={barras} alt="Gráfico de barras"></img>
-          <div>
+          <div className="first-motivation-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi nunc, laoreet eu neque sit amet, ultricies aliquet libero. Ut tempor pharetra feugiat. Duis et consequat massa, viverra cursus nibh.
           </div>
         </div>
         <div className="second-motivation">
-          <div>
+          <div className="second-motivation-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi nunc, laoreet eu neque sit amet, ultricies aliquet libero. Ut tempor pharetra feugiat. Duis et consequat massa, viverra cursus nibh.
           </div>
           <img src={pizza} alt="Gráfico de pizza"></img>

@@ -40,22 +40,20 @@ class Text extends React.Component {
     console.log(this.props)
 
     return (
-      <div style={{display: 'flex', position: 'absolute', top: '90%'}}>
-        <div className="text">
-        <div className="title">
-          Quem somos?
-        </div>
-        <div className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi nunc, laoreet eu neque sit amet, ultricies aliquet libero. Ut tempor pharetra feugiat. Duis et consequat massa, viverra cursus nibh. Suspendisse nisi erat, feugiat sit amet porta quis, egestas quis nisl. Ut fermentum mi in eros porttitor molestie. Cras justo massa, luctus in enim eu, imperdiet convallis massa. Aenean dictum sem eget lorem euismod, et elementum ligula eleifend.
-        </div>
-        <div className="button-box">
-          <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
-            Ver membros
-          </ColorButton>
-        </div>
+        <div className="text-who">
+          <div className="title">
+            Quem somos?
+          </div>
+          <div className="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi nunc, laoreet eu neque sit amet, ultricies aliquet libero. Ut tempor pharetra feugiat. Duis et consequat massa, viverra cursus nibh. Suspendisse nisi erat, feugiat sit amet porta quis, egestas quis nisl. Ut fermentum mi in eros porttitor molestie. Cras justo massa, luctus in enim eu, imperdiet convallis massa. Aenean dictum sem eget lorem euismod, et elementum ligula eleifend.
+          </div>
+          <div className="button-box">
+            <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
+              Ver membros
+            </ColorButton>
+          </div>
       </div>
 
-      </div>
       
     )
   }

@@ -1,7 +1,7 @@
 import React, {useRef} from "react"
 
 // import doctors from "../../assets/doctors.svg"
-import computer from "../../assets/HomeIMG.svg"
+import HomeImagem from "../../assets/HomeIMG.svg"
 import Text from "./Text"
 import TextField from '@material-ui/core/TextField';
 
@@ -14,10 +14,10 @@ function Content() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
-    <div>
-      <div className="home-content">
+    <div className="home-content">
+      <div>
         <Text click={() => handleClick()}/>
-        <img src={computer} className="imagem" alt="doctors" />
+        <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
       </div>
       {/* <div ref={ref}>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />

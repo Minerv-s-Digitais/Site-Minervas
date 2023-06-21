@@ -6,7 +6,7 @@ import "./Footer.scss"
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <img src={whiteLine} className="white-line" alt="white-line" />
       <div className="copyright">
         Minerv@s Digitais UFRJ © 2023 - Todos os direitos reservados
