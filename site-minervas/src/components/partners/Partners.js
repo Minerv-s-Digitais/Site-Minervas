@@ -7,6 +7,7 @@ import Carousel from "./Gallery.js"
 
 import "./Content.scss"
 
+
 function Partners() {
   const ref = useRef(null);
 
@@ -14,13 +15,13 @@ function Partners() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
-    <div>
+    <div id="Partners">
       <div className="partners-content">
         <Text click={() => handleClick()}/>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-          <div style={{width:'80%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div className="partners-carrossel-container">
+          <div style={{width:'76%', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingLeft: '25px'}}>
           <Carousel />
-        </div>
+          </div>
         </div>
         
         

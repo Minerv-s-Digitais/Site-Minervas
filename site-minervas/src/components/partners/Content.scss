@@ -1,7 +1,8 @@
 .partners-content {
   
+  height: 389px;
+  width: 100%;
   margin-top: -10px;
-  margin-bottom: 120px;
   
 
   .doctors {
@@ -9,4 +10,12 @@
     height: 300px;
   }
 
+}
+
+.partners-carrossel-container{
+  height: 190px;
+  width: 1085px;
+  display: flex;
+  justify-content: center;
+  margin: 90px auto 0 auto;
 }
