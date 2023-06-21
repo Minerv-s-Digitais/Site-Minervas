@@ -1,6 +1,6 @@
 import React from "react"
 
-import logonova from "../../assets/logonova.svg"
+import logonova from "../../assets/logonova-completa.svg"
 import Menu from "./Menu"
 
 import "./Header.scss"

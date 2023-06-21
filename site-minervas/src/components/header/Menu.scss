@@ -1,10 +1,22 @@
 .button-group {
   display: flex;
-  align-items: center;
-  justify-items: flex-end;
-  margin-top: 10px;
-
-  .button {
-    color: "red" !important;
+  gap: 60px;
+  width: 59%;
+  
+  .botao-navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.05em;
+    text-decoration: none;
+    padding: 10px 8px;
+    color: black;
+  }
+  .botao-navbar:hover{
+    color: #be5af0;
+    border-radius: 5px;
   }
 }
