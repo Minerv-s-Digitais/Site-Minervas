@@ -1,7 +1,7 @@
 import React from "react"
 
 import Content from "../../components/content/Content"
-import Events from "../../components/events/Events"
+import Events from "../../components/events/Content"
 import Contact from "../../components/contact/Contact"
 import Footer from "../../components/footer/Footer"
 import Header from "../../components/header/Header"
