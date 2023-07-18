@@ -2,6 +2,9 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import exampleimage from '../../assets/example-image.svg'
+import logoManamano from '../../assets/logo-manamano.webp'
+import logoEducaDigital from '../../assets/logo-educa-digital.png'
+import logoSesc from '../../assets/logo-sesc.png'
 import Button from '@material-ui/core/Button'
 import { withStyles } from '@material-ui/core/styles'
 import './Gallery.scss'
@@ -45,6 +48,19 @@ class Carousel extends React.Component {
     })
   }
 
+  handleClick1(){
+    window.open('https://www.sescrio.org.br/', '_blank');
+  }
+
+  handleClick2(){
+    window.open('https://educadigital.org.br/', '_blank');
+  }
+
+  handleClick3(){
+    window.open('http://manamano.org.br/', '_blank');
+  }
+  
+
   render() {
     const { click } = this.props
     console.log(this.props)
@@ -54,8 +70,8 @@ class Carousel extends React.Component {
     const items = [
       <div className="item" data-value="1">
         <img
-          style={{ width: '250px' }}
-          src={exampleimage}
+          style={{ width: '250px', height: '189.067px' }}
+          src={logoSesc}
           onDragStart={handleDragStart}
           role="presentation"
           alt="Escola SESC"
@@ -64,24 +80,24 @@ class Carousel extends React.Component {
           variant="contained"
           className="button"
           disableElevation
-          onClick={click}
+          onClick={this.handleClick1}
         >
           Escola SESC
         </ColorButton>
       </div>,
       <div className="item" data-value="2">
         <img
-          style={{ width: '250px' }}
-          src={exampleimage}
+          style={{ width: '250px', height: '189.067px'}}
+          src={logoEducaDigital}
           onDragStart={handleDragStart}
           role="presentation"
           alt="Educa Digital"
         />
         <ColorButton
           variant="contained"
-          className="button"
+          className="button"S
           disableElevation
-          onClick={click}
+          onClick={this.handleClick2}
         >
           Educa Digital
         </ColorButton>
@@ -89,7 +105,7 @@ class Carousel extends React.Component {
       <div className="item" data-value="3">
         <img
           style={{ width: '250px' }}
-          src={exampleimage}
+          src={logoManamano}
           onDragStart={handleDragStart}
           role="presentation"
           alt="ManaMano"
@@ -98,9 +114,9 @@ class Carousel extends React.Component {
           variant="contained"
           className="button"
           disableElevation
-          onClick={click}
+          onClick={this.handleClick3}
         >
-          ManoMano
+          ManaMano
         </ColorButton>
       </div>,
       <div className="item" data-value="4">
