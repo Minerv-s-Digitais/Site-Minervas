@@ -2,9 +2,10 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import exampleimage from '../../assets/example-image.svg'
-import logoManamano from '../../assets/logo-manamano.webp'
+import logoManamano from '../../assets/logo-manamano.jpg'
 import logoEducaDigital from '../../assets/logo-educa-digital.png'
 import logoSesc from '../../assets/logo-sesc.png'
+import logoTangua from '../../assets/logo-tangua.png'
 import Button from '@material-ui/core/Button'
 import { withStyles } from '@material-ui/core/styles'
 import './Gallery.scss'
@@ -59,6 +60,10 @@ class Carousel extends React.Component {
   handleClick3(){
     window.open('http://manamano.org.br/', '_blank');
   }
+
+  handleClick4(){
+    window.open('https://tangua.rj.gov.br/home/', '_blank');
+  }
   
 
   render() {
@@ -70,7 +75,7 @@ class Carousel extends React.Component {
     const items = [
       <div className="item" data-value="1">
         <img
-          style={{ width: '250px', height: '189.067px' }}
+          style={{ width: '250px'}}
           src={logoSesc}
           onDragStart={handleDragStart}
           role="presentation"
@@ -87,7 +92,7 @@ class Carousel extends React.Component {
       </div>,
       <div className="item" data-value="2">
         <img
-          style={{ width: '250px', height: '189.067px'}}
+          style={{ width: '250px'}}
           src={logoEducaDigital}
           onDragStart={handleDragStart}
           role="presentation"
@@ -104,7 +109,7 @@ class Carousel extends React.Component {
       </div>,
       <div className="item" data-value="3">
         <img
-          style={{ width: '250px' }}
+          style={{ width: '250px', height: '250px'}}
           src={logoManamano}
           onDragStart={handleDragStart}
           role="presentation"
@@ -121,19 +126,19 @@ class Carousel extends React.Component {
       </div>,
       <div className="item" data-value="4">
         <img
-          style={{ width: '250px' }}
-          src={exampleimage}
+          style={{ width: '250px'}}
+          src={logoTangua}
           onDragStart={handleDragStart}
           role="presentation"
-          alt="ManaMano"
+          alt="Tanguá"
         />
         <ColorButton
           variant="contained"
           className="button"
           disableElevation
-          onClick={click}
+          onClick={this.handleClick4}
         >
-          NewOption
+          Prefeitura de Tanguá
         </ColorButton>
       </div>,
     ]
