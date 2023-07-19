@@ -5,11 +5,11 @@
   display: flex;
 
   .imagem {
-    height: 51vw;
     position: absolute;
     right: 0px;
     top: -60px;
-
+    max-width: 819px;
+    max-height: 743px;
   }
 
 }
