@@ -36,7 +36,7 @@
     gap: 30px;
   }
 
-  .icone1-contact,
+  .icone1-contact,  
   .icone2-contact,
   .advisor-icons1,
   .advisor-icons2,
@@ -77,13 +77,11 @@
   }
 
   .section-maps-content{
-    background-image: url('../../assets/maps.png');
     position: absolute;
-    right: 10%;
+    right: 15%;
     top: 10%;
     height: 380px;
     width: 450px;
-    border-radius: 20px;
   }
 
 }
