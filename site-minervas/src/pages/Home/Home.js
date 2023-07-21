@@ -1,7 +1,7 @@
 import React from "react"
 
 import Content from "../../components/content/Content"
-import Events from "../../components/events/Events"
+import Events from "../../components/events/Content"
 import Contact from "../../components/contact/Contact"
 import Footer from "../../components/footer/Footer"
 import Header from "../../components/header/Header"
@@ -12,6 +12,7 @@ import Net from "../../components/net/Net"
 import { BrowserRouter } from "react-router-dom";
 
 import "./Home.scss"
+
 
 function Home() {
   return (
