@@ -4,7 +4,7 @@ import Carousel1 from "./Gallery1"
 import Carousel2 from "./Gallery2"
 import TextEvent from "./Text"
 
-function Events() {
+function EventsContent() {
 
     return (
         <div className="events-container">
@@ -15,12 +15,7 @@ function Events() {
                     <Carousel2 />
                 </div>
             </div>
-
-
-
-
         </div>
-
     )
 }
-export default Events
+export default EventsContent

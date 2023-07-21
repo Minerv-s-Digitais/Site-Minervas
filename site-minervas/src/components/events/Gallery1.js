@@ -1,6 +1,10 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import exampleimage from "../../assets/example-image.svg"
+import photo01 from "../../assets/event-photo-01.jpg"
+import photo02 from "../../assets/event-photo-02.jpg"
+import photo03 from "../../assets/event-photo-03.jpg"
+import photo04 from "../../assets/event-photo-04.jpg"
+import photo05 from "../../assets/event-photo-05.jpg"
 import  './Gallery.scss'
 const handleDragStart = (e) => e.preventDefault();
 
@@ -15,19 +19,19 @@ const responsive = {
 
 const items = [
     <div className="item" data-value="1">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Escola SESC"/>  
+        <img className='img-gallery' src={photo01} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 01"/>  
     </div>,
     <div className="item" data-value="2">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Educa Digital"/>
+        <img className='img-gallery' src={photo02} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 02"/>
     </div>,
     <div className="item" data-value="3">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo03} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 03"/>
     </div>,
     <div className="item" data-value="4">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo04} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 04"/>
     </div>,
     <div className="item" data-value="5">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo05} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 05"/>
     </div>,
 ];
 
