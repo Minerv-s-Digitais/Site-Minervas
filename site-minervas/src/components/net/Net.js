@@ -32,19 +32,19 @@ function Net() {
         <div style={{ width: '98vw', display: 'flex', justifyContent: 'center'}}>
         <div style={{border: 'solid 2x red', width: '50%', cursor: 'pointer'}}>
           <div style={{display: "flex", justifyContent: 'center'}}>
-            <img src={photo01} className="line1" alt="photo01" onClick={() => redirectToLink('https://www.instagram.com/p/CuCr_g5rX9b/') }/>
-            <img src={photo02} className="line1" alt="photo02" onClick={() => redirectToLink('https://www.instagram.com/p/CtpsizaJxTx/?img_index=1') }/>
-            <img src={photo03} className="line1" alt="photo03" onClick={() => redirectToLink('https://www.instagram.com/p/Csrsz-MpEsX/') }/>
+            <img src={photo01} className="line1" alt="photo01" onClick={() => redirectToLink('https://www.instagram.com/p/Cvsg6FEJxaM/?img_index=1') }/>
+            <img src={photo02} className="line1" alt="photo02" onClick={() => redirectToLink('https://www.instagram.com/p/CvLWGrIpfJn/') }/>
+            <img src={photo03} className="line1" alt="photo03" onClick={() => redirectToLink('https://www.instagram.com/p/CuCr_g5rX9b/') }/>
           </div>
           <div style={{display: "flex", justifyContent: 'center'}}>
-            <img src={photo04} className="line2" alt="photo04" onClick={() => redirectToLink('https://www.instagram.com/p/CsHMPYqJ3bl/?img_index=1') }/>
-            <img src={photo05} className="line2" alt="photo05" onClick={() => redirectToLink('https://www.instagram.com/p/Cr3awq5rmUQ/') }/>
-            <img src={photo06} className="line2" alt="photo06" onClick={() => redirectToLink('https://www.instagram.com/p/CqqbXhnJ2ws/') }/>
+            <img src={photo04} className="line2" alt="photo04" onClick={() => redirectToLink('https://www.instagram.com/p/CtpsizaJxTx/?img_index=1') }/>
+            <img src={photo05} className="line2" alt="photo05" onClick={() => redirectToLink('https://www.instagram.com/p/Csrsz-MpEsX/') }/>
+            <img src={photo06} className="line2" alt="photo06" onClick={() => redirectToLink('https://www.instagram.com/p/CsHMPYqJ3bl/?img_index=1') }/>
           </div>
           <div style={{display: "flex", justifyContent: 'center'}}>
-            <img src={photo07} className="line3" alt="photo07" onClick={() => redirectToLink('https://www.instagram.com/p/CqeTtR-r6lY/') }/>
-            <img src={photo08} className="line3" alt="photo08" onClick={() => redirectToLink('https://www.instagram.com/p/CqT6cIQpGdq/?img_index=1') }/>
-            <img src={photo09} className="line3" alt="photo09" onClick={() => redirectToLink('https://www.instagram.com/p/CqJsfOAJyuw/?img_index=1') }/>
+            <img src={photo07} className="line3" alt="photo07" onClick={() => redirectToLink('https://www.instagram.com/p/Cr3awq5rmUQ/') }/>
+            <img src={photo08} className="line3" alt="photo08" onClick={() => redirectToLink('https://www.instagram.com/p/CqqbXhnJ2ws/') }/>
+            <img src={photo09} className="line3" alt="photo09" onClick={() => redirectToLink('https://www.instagram.com/p/CqeTtR-r6lY/') }/>
           </div>
         </div>
 
