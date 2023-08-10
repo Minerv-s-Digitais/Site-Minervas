@@ -1,10 +1,10 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import photo06 from "../../assets/event-photo-06.jpg"
-import photo07 from "../../assets/event-photo-07.jpg"
-import photo08 from "../../assets/event-photo-08.jpg"
-import photo09 from "../../assets/event-photo-09.jpg"
-import photo10 from "../../assets/event-photo-10.jpg"
+import photo06 from "../../assets/event-photo-06-hackaton-manamano.jpg"
+import photo07 from "../../assets/event-photo-07-hackaton-manamano.jpg"
+import photo08 from "../../assets/event-photo-08-hackaton-manamano.jpg"
+import photo09 from "../../assets/event-photo-09-hackaton-manamano.jpg"
+import photo10 from "../../assets/event-photo-10-hackaton-manamano.jpg"
 import  './Gallery.scss'
 const handleDragStart = (e) => e.preventDefault();
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import photo01 from "../../assets/event-photo-01.jpg"
-import photo02 from "../../assets/event-photo-02.jpg"
-import photo03 from "../../assets/event-photo-03.jpg"
-import photo04 from "../../assets/event-photo-04.jpg"
-import photo05 from "../../assets/event-photo-05.jpg"
+import photo01 from "../../assets/event-photo-01-recepcao-CPII.jpg"
+import photo02 from "../../assets/event-photo-02-recepcao-CPII.jpg"
+import photo03 from "../../assets/arduino-tangua01.jpeg"
+import photo04 from "../../assets/arduino-tangua02.jpeg"
+import photo05 from "../../assets/arduino-tangua03.jpeg"
 import  './Gallery.scss'
 const handleDragStart = (e) => e.preventDefault();
 
@@ -25,13 +25,13 @@ const items = [
         <img className='img-gallery' src={photo02} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 02"/>
     </div>,
     <div className="item" data-value="3">
-        <img className='img-gallery' src={photo03} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 03"/>
+        <img className='img-gallery' src={photo03} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 01"/>
     </div>,
     <div className="item" data-value="4">
-        <img className='img-gallery' src={photo04} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 04"/>
+        <img className='img-gallery' src={photo04} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 02"/>
     </div>,
     <div className="item" data-value="5">
-        <img className='img-gallery' src={photo05} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 05"/>
+        <img className='img-gallery' src={photo05} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 03"/>
     </div>,
 ];
 
