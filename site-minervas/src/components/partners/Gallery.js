@@ -4,7 +4,7 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 import exampleimage from '../../assets/example-image.svg'
 import logoManamano from '../../assets/logo-manamano.jpg'
 import logoEducaDigital from '../../assets/logo-educa-digital.png'
-import logoSesc from '../../assets/logo-sesc.png'
+// import logoSesc from '../../assets/logo-sesc.png'
 import logoTangua from '../../assets/logo-tangua.png'
 import Button from '@material-ui/core/Button'
 import { withStyles } from '@material-ui/core/styles'
@@ -50,18 +50,14 @@ class Carousel extends React.Component {
   }
 
   handleClick1(){
-    window.open('https://www.sescrio.org.br/', '_blank');
-  }
-
-  handleClick2(){
     window.open('https://educadigital.org.br/', '_blank');
   }
 
-  handleClick3(){
+  handleClick2(){
     window.open('http://manamano.org.br/', '_blank');
   }
 
-  handleClick4(){
+  handleClick3(){
     window.open('https://tangua.rj.gov.br/home/', '_blank');
   }
   
@@ -76,23 +72,6 @@ class Carousel extends React.Component {
       <div className="item" data-value="1">
         <img
           style={{ width: '250px'}}
-          src={logoSesc}
-          onDragStart={handleDragStart}
-          role="presentation"
-          alt="Escola SESC"
-        />
-        <ColorButton
-          variant="contained"
-          className="button"
-          disableElevation
-          onClick={this.handleClick1}
-        >
-          Escola SESC
-        </ColorButton>
-      </div>,
-      <div className="item" data-value="2">
-        <img
-          style={{ width: '250px'}}
           src={logoEducaDigital}
           onDragStart={handleDragStart}
           role="presentation"
@@ -102,12 +81,12 @@ class Carousel extends React.Component {
           variant="contained"
           className="button"S
           disableElevation
-          onClick={this.handleClick2}
+          onClick={this.handleClick1}
         >
           Educa Digital
         </ColorButton>
       </div>,
-      <div className="item" data-value="3">
+      <div className="item" data-value="2">
         <img
           style={{ width: '250px', height: '250px'}}
           src={logoManamano}
@@ -119,12 +98,12 @@ class Carousel extends React.Component {
           variant="contained"
           className="button"
           disableElevation
-          onClick={this.handleClick3}
+          onClick={this.handleClick2}
         >
           ManaMano
         </ColorButton>
       </div>,
-      <div className="item" data-value="4">
+      <div className="item" data-value="3">
         <img
           style={{ width: '250px'}}
           src={logoTangua}
@@ -136,7 +115,7 @@ class Carousel extends React.Component {
           variant="contained"
           className="button"
           disableElevation
-          onClick={this.handleClick4}
+          onClick={this.handleClick3}
         >
           Prefeitura de Tanguá
         </ColorButton>
