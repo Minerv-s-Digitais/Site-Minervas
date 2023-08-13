@@ -32,7 +32,7 @@ function Net() {
         <div style={{ width: '98vw', display: 'flex', justifyContent: 'center'}}>
         <div style={{border: 'solid 2x red', width: '50%', cursor: 'pointer'}}>
           <div style={{display: "flex", justifyContent: 'center'}}>
-            <img src={photo01} className="line1" alt="photo01" onClick={() => redirectToLink('https://www.instagram.com/p/Cvsg6FEJxaM/?img_index=1') }/>
+            <img src={photo01} className="line1" alt="photo01" onClick={() => redirectToLink('https://www.instagram.com/p/CvyLVx9JO5Z/?img_index=1') }/>
             <img src={photo02} className="line1" alt="photo02" onClick={() => redirectToLink('https://www.instagram.com/p/CvLWGrIpfJn/') }/>
             <img src={photo03} className="line1" alt="photo03" onClick={() => redirectToLink('https://www.instagram.com/p/CuCr_g5rX9b/') }/>
           </div>
