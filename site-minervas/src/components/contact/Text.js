@@ -1,7 +1,8 @@
 import React from "react";
 import "./Text.scss";
-import phone from "../../assets/phone-draw.svg"
+//import phone from "../../assets/phone-draw.svg"
 import mail from "../../assets/mail-draw.svg"
+import insta from "../../assets/insta-icon-draw.svg"
 
 class Text extends React.Component {
   constructor(props) {
@@ -18,9 +19,9 @@ class Text extends React.Component {
         <div className="section-icons-contact"> 
           <div className="icons-contact-collum1">
             <div className="icone1-contact">
-              <img className="icone1-contact" src={phone} alt='desenho do telefone'></img>
+              <img className="icone1-contact" src={insta} alt='desenho do icone do insta'></img>
             </div>
-            <p className="general-phone-number">(22)9999-9999</p>       
+            <p className="general-insta-at-sign"><a href="https://www.instagram.com/minervasdigitaisufrj/" target="_blank" rel="noreferrer">@minervasdigitaisufrj</a></p>       
           </div>
           <div className="icons-contact-collum2">
             <div className="icone2-contact">
@@ -33,11 +34,6 @@ class Text extends React.Component {
           <p className="title-section-infos">Professora Orientadora</p>
           <p className="name-advisor">Maria Luiza Machado Campos</p>
           <p className="email-advisor">mluiza@ppgi.ufrj.br</p>
-          <div className="advisor-icons-contact">
-            <div className="advisor-icons1"></div>
-            <div className="advisor-icons2"></div>
-            <div className="advisor-icons3"></div>
-          </div>
         </div>
         <div className="section-maps-content">
         <iframe 
