@@ -5,9 +5,13 @@ import Carousel2 from "./Gallery2"
 import TextEvent from "./Text"
 
 function EventsContent() {
+    const ref = useRef(null);
 
+    const handleClick = () => {
+        ref.current?.scrollIntoView({ behavior: 'smooth' });
+    }
     return (
-        <div className="events-container">
+        <div className="events-container"  id="Events">
             <TextEvent />
             <div className="gallery-container">
                 <div className="gallery-transform" >

@@ -14,8 +14,6 @@ const responsive = {
     60: { items: 3 },
     61: { items: 4 },
     62: { items: 5 },
-    
-};
 
 const items = [
     <div className="item" data-value="1">
@@ -32,6 +30,7 @@ const items = [
     </div>,
     <div className="item" data-value="5">
         <img className='img-gallery' src={photo05} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 03"/>
+
     </div>,
 ];
 

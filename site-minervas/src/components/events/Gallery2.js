@@ -5,6 +5,7 @@ import photo07 from "../../assets/event-photo-07-hackaton-manamano.jpg"
 import photo08 from "../../assets/event-photo-08-hackaton-manamano.jpg"
 import photo09 from "../../assets/event-photo-09-hackaton-manamano.jpg"
 import photo10 from "../../assets/event-photo-10-hackaton-manamano.jpg"
+
 import  './Gallery.scss'
 const handleDragStart = (e) => e.preventDefault();
 
