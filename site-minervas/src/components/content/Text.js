@@ -34,6 +34,11 @@ class Text extends React.Component {
       openChat: true
     })
   }
+  
+  handleClick(){
+    const sectionRef = document.getElementById("Who");
+    sectionRef.scrollIntoView({ behavior: 'smooth' });
+  }
 
   render(){
     const {click} = this.props
@@ -48,7 +53,7 @@ class Text extends React.Component {
           Projeto de Extensão da UFRJ com objetivo de fomentar a presença feminina no meio tecnológico
         </div>
         <div className="button-box">
-          <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
+          <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={this.handleClick}>
             Saiba mais
           </ColorButton>
         </div>

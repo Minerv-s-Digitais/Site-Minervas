@@ -1,15 +1,17 @@
 .home-content {
-  width: 100vw;
+  display: flex;
+  justify-content: space-between;
   margin-top: -10px;
   margin-bottom: 200px;
   display: flex;
 
   .imagem {
-    height: 51vw;
     position: absolute;
     right: 0px;
     top: -60px;
-
+    max-width: 819px;
+    max-height: 743px;
+    //height: 40vw;
   }
 
 }

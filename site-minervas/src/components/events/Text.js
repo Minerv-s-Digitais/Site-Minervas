@@ -1,21 +1,21 @@
-import React from "react";
-import "./Text.scss";
+import React from "react"
 
-class Text extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      openChat: false,
-    };
-  }
+import Button from "@material-ui/core/Button"
+import { withStyles } from "@material-ui/core/styles"
+import { redirect } from "react-router-dom"
 
-  render() {
+import "./Text.scss"
+
+class TextEvent extends React.Component {
+  render(){
     return (
-      <div className="Events-text">
-        <div className="title">Eventos</div>
+      <div className="text-event">
+        <div className="title">
+          Eventos
+        </div>
       </div>
-    );
+    )
   }
 }
 
-export default Text;
+export default TextEvent

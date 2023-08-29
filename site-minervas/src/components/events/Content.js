@@ -4,13 +4,12 @@ import Carousel1 from "./Gallery1"
 import Carousel2 from "./Gallery2"
 import TextEvent from "./Text"
 
-function Events() {
+function EventsContent() {
     const ref = useRef(null);
 
     const handleClick = () => {
         ref.current?.scrollIntoView({ behavior: 'smooth' });
     }
-
     return (
         <div className="events-container"  id="Events">
             <TextEvent />
@@ -21,7 +20,6 @@ function Events() {
                 </div>
             </div>
         </div>
-
     )
 }
-export default Events
+export default EventsContent

@@ -70,7 +70,7 @@ function Menu() {
       <Link to ="#Partners" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
         Parceiros
       </Link>
-      <Link to ="#Contact" scroll={el => scrollWithOffset(el, 108)} className="botao-navbar">
+      <Link to ="#Contact" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
         Contato
       </Link>
       {/* <Button

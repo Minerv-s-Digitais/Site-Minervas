@@ -44,7 +44,7 @@ class Text extends React.Component {
     return (
       <div className="motivation-text">
         <div className="title">
-          Parcerias
+          Parcerias já realizadas
         </div>
       </div>
     )

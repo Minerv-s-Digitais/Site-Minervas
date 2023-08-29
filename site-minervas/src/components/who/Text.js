@@ -45,12 +45,12 @@ class Text extends React.Component {
             Quem somos?
           </div>
           <div className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi nunc, laoreet eu neque sit amet, ultricies aliquet libero. Ut tempor pharetra feugiat. Duis et consequat massa, viverra cursus nibh. Suspendisse nisi erat, feugiat sit amet porta quis, egestas quis nisl. Ut fermentum mi in eros porttitor molestie. Cras justo massa, luctus in enim eu, imperdiet convallis massa. Aenean dictum sem eget lorem euismod, et elementum ligula eleifend.
+          Criada em 2018, a Minerv@s Digitais é um projeto de extensão da UFRJ, associado ao projeto nacional Meninas Digitais. Temos como objetivo fomentar o interesse das meninas nas áreas de Computação e das áreas de Tecnologias da Informação e Comunicação (TIC) e ajudar na construção da autoconfiança das alunas da UFRJ dos cursos de Bacharelado em Ciência de Computação (BCC) e de Ciências da Matemática e da Terra (BCMT), assim como de cursos associados, Engenharia de Computação e Informação e Engenharia de Automação. 
           </div>
           <div className="button-box">
-            <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
+            {/*<ColorButton variant="contained" color="primary" className='button' disableElevation onClick={click}>
               Ver membros
-            </ColorButton>
+            </ColorButton>*/}
           </div>
       </div>
 

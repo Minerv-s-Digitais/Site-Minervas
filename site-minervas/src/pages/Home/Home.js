@@ -13,6 +13,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./Home.scss"
 
+
 function Home() {
   return (
     <BrowserRouter>

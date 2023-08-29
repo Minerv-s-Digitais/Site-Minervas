@@ -1,6 +1,11 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import exampleimage from "../../assets/example-image.svg"
+import photo06 from "../../assets/event-photo-06-hackaton-manamano.jpg"
+import photo07 from "../../assets/event-photo-07-hackaton-manamano.jpg"
+import photo08 from "../../assets/event-photo-08-hackaton-manamano.jpg"
+import photo09 from "../../assets/event-photo-09-hackaton-manamano.jpg"
+import photo10 from "../../assets/event-photo-10-hackaton-manamano.jpg"
+
 import  './Gallery.scss'
 const handleDragStart = (e) => e.preventDefault();
 
@@ -15,19 +20,19 @@ const responsive = {
 
 const items = [
     <div className="item" data-value="1">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Escola SESC"/>  
+        <img className='img-gallery' src={photo06} onDragStart={handleDragStart} role="presentation" alt="Foto ManaMano 01"/>  
     </div>,
     <div className="item" data-value="2">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="Educa Digital"/>
+        <img className='img-gallery' src={photo07} onDragStart={handleDragStart} role="presentation" alt="Foto ManaMano 02"/>
     </div>,
     <div className="item" data-value="3">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo08} onDragStart={handleDragStart} role="presentation" alt="Foto ManaMano 03"/>
     </div>,
     <div className="item" data-value="4">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo09} onDragStart={handleDragStart} role="presentation" alt="Foto Manamano 04"/>
     </div>,
     <div className="item" data-value="5">
-        <img className='img-gallery' src={exampleimage} onDragStart={handleDragStart} role="presentation" alt="ManaMano"/>
+        <img className='img-gallery' src={photo10} onDragStart={handleDragStart} role="presentation" alt="Foto Manamano 05"/>
     </div>,
 ];
 
