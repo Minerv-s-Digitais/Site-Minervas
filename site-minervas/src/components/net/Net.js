@@ -1,6 +1,6 @@
 import React, { useRef } from "react"
 
-import exampleimage from "../../assets/example-image.svg"
+//import exampleimage from "../../assets/example-image.svg"
 import photo18082023 from "../../assets/insta-photo18-08-2023.jpg"
 import photo10082023 from "../../assets/insta-photo10-08-2023.jpg"
 import photo26072023 from "../../assets/insta-photo26-07-2023.jpg"

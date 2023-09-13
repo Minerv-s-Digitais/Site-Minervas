@@ -1,11 +1,12 @@
 import React from "react"
 
-import Button from "@material-ui/core/Button"
-import { withStyles } from "@material-ui/core/styles"
-import { redirect } from "react-router-dom"
+//import Button from "@material-ui/core/Button"
+//import { withStyles } from "@material-ui/core/styles"
+//import { redirect } from "react-router-dom"
 
 import "./Text.scss"
 
+/*
 const ColorButton = withStyles(() => ({
   root: {
     textTransform: "none",
@@ -19,6 +20,7 @@ const ColorButton = withStyles(() => ({
     },
   },
 }))(Button)
+*/
 
 class Text extends React.Component {
 
@@ -36,7 +38,7 @@ class Text extends React.Component {
   }
 
   render(){
-    const {click} = this.props
+    //const {click} = this.props
     console.log(this.props)
 
     return (
