@@ -1,6 +1,5 @@
 import React, {useRef} from "react"
 
-// import doctors from "../../assets/doctors.svg"
 import HomeImagem from "../../assets/HomeIMG.svg"
 import Text from "./Text"
 import TextField from '@material-ui/core/TextField';
@@ -15,10 +14,8 @@ function Content() {
   }
   return (
     <div className="home-content">
-      <div>
-        <Text click={() => handleClick()}/>
-        <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
-      </div>
+      <Text click={() => handleClick()}/>
+      <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
       {/* <div ref={ref}>
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
       </div> */}
