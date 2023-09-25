@@ -9,7 +9,11 @@
   right: 0px;
   top: 2vw;
   width: 55vw;
-  height: 43vw;
+  height: 45vw;
+}
+
+.imagem-mobile {
+  display: none;
 }
 
 @media screen and (max-width: 960px){
@@ -19,4 +23,29 @@
     width: 55vw;
     height: 50vw;
   }
+
+  .imagem-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .home-content {
+    width: 100%;
+    margin-top: 10vw;
+    margin-bottom: 19vw;
+    display: inline-block;
+    text-align: center;
+    
+
+    .imagem-mobile {
+      margin-left: -6%;
+      display: flex;
+      width: 110%;
+    }
+  }
+
+  .imagem {
+    display: none;
+  }  
 }

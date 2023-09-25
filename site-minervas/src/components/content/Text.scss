@@ -3,7 +3,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 500;
+  max-width: 50%;
   margin: 22vw 0px 0px 6vw;
   text-align: left;
 
@@ -11,35 +11,16 @@
     font-family: 'Poppins', sans-serif;
     color: #3F005E;
     font-weight: 600;
-    font-size: 57px;
-  }
-
-  @media screen and (max-width: 960px){
-    .title {
-      font-family: 'Poppins', sans-serif;
-      color: #3F005E;
-      font-size: 4.2vw;
-    }
+    font-size: 3.7vw;
   }
 
   .description {
     width: 30vw;
     font-family: 'Lato', sans-serif;
     color: #1F1F1F;
-    font-size: 25px;
+    font-size: 1.6vw;
     margin-bottom: 6vh;
     text-align: left;
-  }
-
-  @media screen and (max-width: 960px){
-    .description {
-      width: 37vw;
-      font-family: 'Lato', sans-serif;
-      color: #1F1F1F;
-      font-size: 1.9vw;
-      margin-bottom: 4vw;
-      text-align: left;
-    }
   }
 
   .button-box {
@@ -48,27 +29,61 @@
 
   .button {
     background-image: linear-gradient(to top, #AE7CC6 0%, #3F005E 100%);
-    font-size: 25px;
+    font-size: 1.6vw;
     width: 19vw;
   }
 
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 1080px){
+    .title {
+      font-size: 4.1vw;
+    }
+  
+    .description {
+      width: 37vw;
+      font-size: 1.9vw;
+      margin-bottom: 4vw;
+    }
+  }
+}
+
+@media screen and (max-width: 960px){
+  .content {
+    margin: 30vw 0px 0px 6vw;
+
+    .title {
+      font-size: 4.2vw;
+    }
+
     .button {
-      background-image: linear-gradient(to top, #AE7CC6 0%, #3F005E 100%);
       font-size: 1.9vw;
       width: 19vw;
     }
   }
 
-}
+  @media screen and (max-width: 780px){
+    .content {
+      margin: -1% 0 0 14%;
+      text-align: center;
+      max-width: 72%;
+  
+      .title {
+        font-size: 7vw;
+      }
 
-@media screen and (max-width: 960px){
-  .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 500;
-    margin: 30vw 0px 0px 6vw;
-    text-align: left;
-  }  
+      .description {
+        width: 82%;
+        font-size: 3.2vw;
+        margin-bottom: 10vw;
+        margin-left: 9%;
+        text-align: center;
+      }
+  
+      .button {
+        font-size: 3.2vw;
+        width: 40vw;
+      }
+    }
+  }
+
 }
 
