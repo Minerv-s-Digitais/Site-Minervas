@@ -1,52 +1,85 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
 import photo01 from "../../assets/event-photo-01-recepcao-CPII.jpg"
 import photo02 from "../../assets/event-photo-02-recepcao-CPII.jpg"
 import photo03 from "../../assets/arduino-tangua01.jpeg"
 import photo04 from "../../assets/arduino-tangua02.jpeg"
 import photo05 from "../../assets/arduino-tangua03.jpeg"
-import  './Gallery.scss'
-const handleDragStart = (e) => e.preventDefault();
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import './Gallery.scss'
 
-const responsive = {
-    0: { items: 1 },
-    59: { items: 2 },
-    60: { items: 3 },
-    61: { items: 4 },
-    62: { items: 5 },
-}
-const items = [
-    <div className="item" data-value="1">
-        <img className='img-gallery' src={photo01} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 01"/>  
-    </div>,
-    <div className="item" data-value="2">
-        <img className='img-gallery' src={photo02} onDragStart={handleDragStart} role="presentation" alt="Recepção alunos CP II 02"/>
-    </div>,
-    <div className="item" data-value="3">
-        <img className='img-gallery' src={photo03} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 01"/>
-    </div>,
-    <div className="item" data-value="4">
-        <img className='img-gallery' src={photo04} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 02"/>
-    </div>,
-    <div className="item" data-value="5">
-        <img className='img-gallery' src={photo05} onDragStart={handleDragStart} role="presentation" alt="Arduíno em Tanguá 03"/>
 
-    </div>,
-];
+const Carousel1 = () => {
 
-const Carousel1 = () => (
-    <AliceCarousel
-        mouseTracking
-        items={items}
-        responsive={responsive}
-        controlsStrategy="alternate"
-        autoPlay={true}
-        infinite={true}
-        animationDuration={3000}
-        disableButtonsControls={true}
-        disableDotsControls={true}
-    />
-);
+    const item = [
+        <div>
+            <img className='item' src={photo01} alt="Recepção alunos CP II 01" />
+        </div>,
+        <div>
+            <img className='item' src={photo02} alt="Recepção alunos CP II 02" />
+        </div>,
+        <div>
+            <img className='item' src={photo03} alt="Arduíno em Tanguá 01" />
+        </div>,
+        <div>
+            <img className='item' src={photo04} alt="Arduíno em Tanguá 02" />
+        </div>,
+        <div>
+            <img className='item' src={photo05} alt="Arduíno em Tanguá 03" />
+    
+        </div>,
+        <div>
+            <img className='item' src={photo01} alt="Recepção alunos CP II 01" />
+        </div>,
+        <div>
+            <img className='item' src={photo02} alt="Recepção alunos CP II 02" />
+        </div>,
+    ]
+    return (
+        <Swiper
+            spaceBetween={30}
+            slidesPerView={5}
+            breakpoints={{
+                0: {
+                    slidesPerView: 1,
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
+                1100: {
+                    slidesPerView: 4,
+                },
+                1350: {
+                    slidesPerView: 5,
+                },
+                1500: {
+                    slidesPerView: 6,
+                }
+            }}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            dir='rtl'
+            autoplay={{
+                delay: 1500,
+                disableOnInteraction: false
 
-export default Carousel1
+            }}
+            modules={[Autoplay]}
+            style={{ padding: 30 }}
+        >
+            <div>
+                {item.map((item, index) => (
+                    <SwiperSlide className='slider' key={index}>{item}</SwiperSlide>
 
+                ))}
+            </div>
+
+        </Swiper>
+    );
+};
+
+export default Carousel1;

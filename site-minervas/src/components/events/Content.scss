@@ -1,23 +1,14 @@
 .events-container{
-    width: 100%;
-    height: 1000px;
-    background-image: url('../../assets/purple-background-events.svg');
-    background-repeat: no-repeat;
-}
-.gallery-transform{
-    display: flex;
-    flex-direction: column;
-    transform: rotate(-7.21deg);
-    width: 105vw;
-    gap: 54px;
-    position: relative;
-    top: 30%;
-
+    height: 1100px;
+    clip-path: polygon(0 0, 100% 26%, 100% 82%, 0% 100%);
+    background-color: #3f005e;
 }
 .gallery-container{
-    overflow: hidden;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+.gallery-transform{
+    width: 105vw;
+    position: relative;
+    *border: solid 2px red;
+    top: 30%;
 }
