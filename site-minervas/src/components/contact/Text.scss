@@ -26,6 +26,16 @@
     gap: 20px;
     margin: 0;
     padding: 40px 0 50px;
+
+    @media (max-width: 1140px) {
+
+      @media (max-width: 460px){
+        align-items:baseline;
+      }
+
+      align-items: center;
+      text-align: center;
+    }
   }
 
   .icons-contact-collum1,
@@ -71,14 +81,38 @@
       margin: 0;
       padding: 40px 0;
     }
+
+    @media (max-width: 1140px) {
+
+      @media (max-width: 460px){
+        align-items:baseline;
+        font-size: 14px;
+      }
+
+      order: 3; 
+      width: 100%; 
+      height: 10%;
+    }
   }
 
-  .section-maps-content{
+  .section-maps-content {
     position: absolute;
     right: 15%;
     top: 10%;
     height: 380px;
     width: 450px;
+
+    @media (max-width: 1140px) {
+      @media (max-width: 1140px) {
+        padding-left: 3%;
+      }
+      position: static;
+      width: 80%;
+      padding-top: 100px;
+      align-items: center;
+      justify-content: end;
+      display: flex;
+    }
   }
 
 }
