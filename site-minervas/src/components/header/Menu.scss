@@ -1,8 +1,12 @@
 .button-group {
   display: flex;
   gap: 60px;
-  width: 59%;
-  
+
+  @media (max-width: 970px) {
+    transform: translateX(100%);
+    transition: left 6s;
+  }
+
   .botao-navbar {
     width: auto;
     height: auto;
@@ -14,9 +18,71 @@
     text-decoration: none;
     padding: 10px 8px;
     color: black;
+
+    @media (max-width: 970px) {
+      display: none;
+      border-bottom: 1px solid #808080;
+    }
+
+    }
   }
   .botao-navbar:hover{
     color: #be5af0;
     border-radius: 5px;
   }
+
+  
+  .button-group.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 79px; 
+    right: 0px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px 5px rgba(51, 51, 51, 0.2);
+    width: 180px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+    gap: 0px;
+
+    .botao-navbar {
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 1.05em;
+      text-decoration: none;
+      padding: 35px 8px;
+      color: black;
+    }  
+    .botao-navbar:hover{
+      color: #be5af0;
+      border-radius: 0px;
+    }
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+
+  svg {
+    width: 30px;
+    height: 30px;
+    fill: #3F005E;
+  }
+}
+
+@media (max-width: 970px) {
+  .menu-icon {
+    display: flex;
+    position: fixed;
+    right: 35px;
+  }
+
+  .logo.open {
+    display: none;
+  }
+  
 }
