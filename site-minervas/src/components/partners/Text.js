@@ -42,7 +42,7 @@ class Text extends React.Component {
     console.log(this.props)
 
     return (
-      <div className="motivation-text">
+      <div className="partners-text">
         <div className="title">
           Parcerias já realizadas
         </div>
