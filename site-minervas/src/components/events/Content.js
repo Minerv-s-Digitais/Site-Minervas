@@ -30,12 +30,14 @@ function EventsContent() {
         ref.current?.scrollIntoView({ behavior: 'smooth' });
     }
     return (
-        <div className="events-container" id="Events">
-            <TextEvent />
-            <div className="gallery-container">
-                <div className="gallery-transform" style={{transform: transform}} >
-                    <Carousel1 />
-                    <Carousel2 />
+        <div className="events-container-background" id="Events">
+            <div className="events-content">
+                <TextEvent />
+                <div className="gallery-container">
+                    <div className="gallery-transform" style={{transform: transform}} >
+                        <Carousel1 />
+                        <Carousel2 />
+                    </div>
                 </div>
             </div>
         </div>
