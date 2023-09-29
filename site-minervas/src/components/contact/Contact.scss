@@ -12,6 +12,12 @@
 
 .Contact-content {
   display: flex;
-  width: 100%;
+  width: 85vw;
+  height: auto;
   justify-content: center;
+}
+
+@media (max-width: 1140px) {
+  *{transition: ease all .3s;}
+
 }
