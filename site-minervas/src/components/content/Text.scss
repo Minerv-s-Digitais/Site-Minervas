@@ -62,7 +62,7 @@
 
   @media screen and (max-width: 780px){
     .content {
-      margin: -1% 0 0 14%;
+      margin: -1% 0% 25% 14%;
       text-align: center;
       max-width: 72%;
   
@@ -71,16 +71,17 @@
       }
 
       .description {
-        width: 82%;
-        font-size: 3.2vw;
-        margin-bottom: 10vw;
-        margin-left: 9%;
+        width: 85%;
+        font-size: 3.3vw;
+        margin-bottom: 9vw;
+        margin-left: 6%;
         text-align: center;
       }
   
       .button {
-        font-size: 3.2vw;
-        width: 40vw;
+        font-size: 3.5vw;
+        width: 50vw;
+        height: 10vw;
       }
     }
   }
