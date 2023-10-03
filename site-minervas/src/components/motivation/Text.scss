@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
+.html{
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
+}
+
 .motivation-text {
-  width: '100%';
+  height: 100%;
+  width: 100%;
   max-width: 500;
-  margin: 0px 50px 0px 95px;
   text-align: left;
 
   .title {
     font-family: 'Poppins', sans-serif;
     color: #3F005E;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 2.5rem;
     margin-top: 60px !important;
   }
 
   .first-motivation {
     font-family: 'Lato', sans-serif;
     display: flex;
+    justify-content: space-between;
     gap: 5%;
     width: 100%;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.3rem;
     margin: 100px 250px 20px 0px;
     text-align: justify;
   }
@@ -31,9 +38,10 @@
   .second-motivation {
     font-family: 'Lato', sans-serif;
     display: flex;
+    justify-content: space-between;
     gap: 11%;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.3rem;
     margin: 100px 250px 20px 0px;
     text-align: justify;
     width: 100%; 
@@ -42,17 +50,36 @@
       width: 50%;
     }
   }
-
-  .button-box {
-    width: 60%;
-    text-align: center;
-  }
-
-  .button {
-    color: black;
-    background-color: #FFBD59;
-    font-size: 18px;
-    width: 200px;
-  }
-
 }
+
+// @media query
+@media (max-width: 960px) {
+  *{transition: ease all .3s;}
+  .motivation-text{
+    margin: auto !important;
+    .title{
+      width: 90% !important;
+      margin-top: 6% !important;
+    }
+    .second-motivation,
+    .first-motivation{
+      margin: auto !important;
+      .img-first-motivation,
+      .img-second-motivation{
+        margin-top: 30px !important;
+      }
+      .first-motivation-text,
+      .second-motivation-text{
+        margin: 50px 0px !important;
+        width: 100% !important;
+      }
+    }
+  }
+  .second-motivation{
+    flex-direction: column-reverse !important;
+  }
+  .first-motivation{
+    flex-direction: column !important;
+  }
+}
+

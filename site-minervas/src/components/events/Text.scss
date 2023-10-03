@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
+.html{
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
+}
+
 .text-event {
-  width: 50%;
+  width: 100%;
   max-width: 500;
   position: relative;
   text-align: left;
@@ -12,7 +18,6 @@
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 800;
-    font-size: 48px;
-    margin: 0px 99px;
+    font-size: 2.5rem;
   }
 }
