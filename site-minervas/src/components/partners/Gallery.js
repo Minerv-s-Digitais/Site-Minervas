@@ -131,14 +131,6 @@ class Carousel extends React.Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
             slidesToShow: 1,
             slidesToScroll: 1
           }
@@ -192,7 +184,7 @@ class Carousel extends React.Component {
               variant="contained"
               className="button"
               disableElevation
-              onClick={click}
+              onClick={this.handleClick3}
             >
               Prefeitura de Tanguá
             </ColorButton>
