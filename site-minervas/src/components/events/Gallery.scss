@@ -3,24 +3,16 @@
     height: 200px;
     border-radius: 15px;
     *border: solid 2px yellow;
+    width: 100% !important;
 
     @media (max-width: 500px) {
         width: 80vw;
-
     }
 }
 
-.slider {
+.swiper {
     @media (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        *border: solid blue 2px;
-        width: 100vw;
-        padding: 0;
-        position: relative;
-        right: 3%;
-
+        padding: 39px !important;
     }
 
 }
