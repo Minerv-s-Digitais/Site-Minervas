@@ -3,7 +3,8 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
-
+import photo18102023 from "../../assets/insta-photo18-10-2023.jpg"
+import photo10102023 from "../../assets/insta-photo10-10-2023.jpg"
 import photo19092023 from "../../assets/insta-photo19-09-2023.jpg"
 import photo18082023 from "../../assets/insta-photo18-08-2023.jpg"
 import photo10082023 from "../../assets/insta-photo10-08-2023.jpg"
@@ -39,34 +40,34 @@ function Net() {
         <Text click={() => handleClick()}  />
         <div className="imagens-grid-net">
           <Grid  container spacing={5}>
-            <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
+          <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo19092023} className="line1" alt="post-minervas1" onClick={() => redirectToLink('https://www.instagram.com/p/CxYg-mYpiny/') }/>
+                <img src={photo18102023} className="line1" alt="post-minervas1" onClick={() => redirectToLink('https://www.instagram.com/p/CyjbmLjpEuF/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo18082023} className="line1" alt="post-minervas2" onClick={() => redirectToLink('https://www.instagram.com/p/CwGkaa_JI5H/') }/>
+                <img src={photo10102023} className="line1" alt="post-minervas2" onClick={() => redirectToLink('https://www.instagram.com/p/CyO1XBMJB4l/?img_index=1') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo10082023} className="line1" alt="post-minervas3" onClick={() => redirectToLink('https://www.instagram.com/p/CvyLVx9JO5Z/?img_index=1') }/>
+                <img src={photo19092023} className="line1" alt="post-minervas3" onClick={() => redirectToLink('https://www.instagram.com/p/CxYg-mYpiny/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo26072023} className="line1" alt="post-minervas4" onClick={() => redirectToLink('https://www.instagram.com/p/CvLWGrIpfJn/') }/>
+                <img src={photo18082023} className="line1" alt="post-minervas4" onClick={() => redirectToLink('https://www.instagram.com/p/CwGkaa_JI5H/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo28062023} className="line1" alt="post-minervas5" onClick={() => redirectToLink('https://www.instagram.com/p/CuCr_g5rX9b/') }/>
+                <img src={photo10082023} className="line1" alt="post-minervas5" onClick={() => redirectToLink('https://www.instagram.com/p/CvyLVx9JO5Z/?img_index=1') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo18062023} className="line1" alt="post-minervas6" onClick={() => redirectToLink('https://www.instagram.com/p/CtpsizaJxTx/?img_index=1') }/>
+                <img src={photo26072023} className="line1" alt="post-minervas6" onClick={() => redirectToLink('https://www.instagram.com/p/CvLWGrIpfJn/') }/>
               </Item>
             </Grid>
           </Grid>
