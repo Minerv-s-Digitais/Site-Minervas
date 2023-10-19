@@ -4,13 +4,20 @@
   height: 600px;
   margin-top: -10px;
   justify-content: center;
+
+  @media (max-width: 1140px) {
+    height: 1000px
+  }
 }
 
 .Contact-content {
   display: flex;
-  width: 100%;
+  width: 85vw;
+  height: auto;
   justify-content: center;
 }
 
+@media (max-width: 1140px) {
+  *{transition: ease all .3s;}
 
-
+}

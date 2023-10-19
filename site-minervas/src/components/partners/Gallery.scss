@@ -1,27 +1,61 @@
-.alice-carousel__dots{
-    display: none !important;
+.html{
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
 }
 
-.alice-carousel__prev-btn{
-    position: absolute;
-    left: -133px;
-    top: -35px;
-    text-align: left;
-    width: 72px;
-}
-.alice-carousel__next-btn{
-    position: absolute;
-    right: -96px;
-    top: -35px;
-    text-align: right;
-    width: 72px;
+.carrossel{
+  display: flex;
+  flex-direction: column;
+  gap : 10px !important;
+  height: 18vh;
+  width: 100%;
+  margin: auto !important;
+  margin-right: calc((5%)*2) !important;
+  position: relative !important;
+
+  .slick-next {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 89% 100%, 64% 51%, 90% 0) !important;
+    background-color: #3f005e !important;
+    font-size: 2em;
+    height: 130px !important;
+    width: 50px !important;
+    right: -80px !important;
+    -moz-transform: scaleX(-1) !important;
+    -o-transform: scaleX(-1) !important;
+    -webkit-transform: scaleX(-1) !important; 
+    transform: scaleX(-1) !important;
+    top: 10% !important;
+    position: absolute !important;
+
+    &::before {
+      display: none;
+    }
+  }
+    
+  .slick-prev {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 89% 100%, 64% 51%, 90% 0) !important;
+    background-color: #3f005e !important;
+
+    height: 130px !important;
+    width: 50px !important;
+    left: -53px !important;
+    
+    &::before {
+      display: none;
+    }
+  }
 }
 
-.alice-carousel__prev-btn-wrapper, 
-.alice-carousel__next-btn-wrapper {
-    width: 0px;
+.carrossel-item{
+  height: 160px;
+  border-radius: 14px;
+  position: relative;
 }
 
+.slick-slide div{
+  margin: 0 1rem;
+}
 
 
 .alice-carousel__prev-btn-item,

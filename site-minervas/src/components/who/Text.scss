@@ -1,41 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
+.html{
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
+}
+
 .text-who {
+  height: auto;
   width: 100%;
-  max-width: 700px;
   text-align: left;
-  margin: 140px 50px 30px 95px;
 
   .title {
+    height: 10%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 2.5rem;
   }
-  
   .description {
+      height: 26%;
+      width: 90% !important;
       font-family: 'Lato', sans-serif;
       color: white;
       font-weight: 300;
-      font-size: 20px;
-      margin: 20px 250px 20px 0px;
+      font-size: 1.3rem;
+      margin: 20px 325px 20px 0px;
       text-align: left;
-      width: 550px;
-  
     }
-  
     .button-box {
-      display: flex;
-      width: 60%;
-    }
-  
-    .button {
-      color: black;
-      background-color: #FFBD59;
-      font-size: 18px;
       width: 200px;
+      height: 6%;
+      
+      .button {
+        color: black;
+        background-color: #FFBD59;
+        font-size: 1.3rem;
+        width: 200px;
+      }
     }
-  
 }
+
+// @media query
+@media (max-width: 2200px) {
+  *{transition: ease all .3s;}
+  .text-who{
+    .title{
+      font-size: 2.5rem !important;
+    }
+    .description{
+      font-size: 1.3rem !important;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  *{transition: ease all .3s;}
+  .title,
+  .description{
+    text-align: justify !important;
+    margin: 0px !important;
+    width: 100% !important;
+  }
+ .text-who{
+   width: 90% !important;
+   margin: 0 auto;
+   .description{
+    width: 100% !important;
+   }
+  }
+ .button-box,
+ .button {
+  margin: 10px auto 0px auto!important;
+ }
+}
+
+@media (max-width: 600px) {
+  *{transition: ease all .3s;}
+}
+
 
 

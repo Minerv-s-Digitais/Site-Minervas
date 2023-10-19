@@ -1,10 +1,26 @@
-.item{
-    width: 1px;
-}
-.img-gallery{
-    height: 190px;
-    max-width: 275.706px;
-    gap: 0;
+.item {
+    width: 280px;
+    height: 200px;
     border-radius: 15px;
+    *border: solid 2px yellow;
+
+    @media (max-width: 500px) {
+        width: 80vw;
+
+    }
+}
+
+.slider {
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        *border: solid blue 2px;
+        width: 100vw;
+        padding: 0;
+        position: relative;
+        right: 3%;
+
+    }
 
 }
