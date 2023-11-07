@@ -13,6 +13,7 @@ function Content() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
+
     <div className="home">
         <Text click={() => handleClick()}/>
         <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
