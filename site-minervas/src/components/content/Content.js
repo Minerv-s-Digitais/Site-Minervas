@@ -13,10 +13,11 @@ function Content() {
     ref.current?.scrollIntoView({behavior: 'smooth'});
   }
   return (
-    <div className="home-content">
-      <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
-      <img src={HomeImagemMobile} className="imagem-mobile" alt="imagem-da-tela-home" />
-      <Text click={() => handleClick()}/>
+
+    <div className="home">
+        <Text click={() => handleClick()}/>
+        <img src={HomeImagem} className="imagem" alt="imagem-da-tela-home" />
+        <img src={HomeImagemMobile} className="imagem-mobile" alt="imagem-da-tela-home" />
     </div>
   )
 }

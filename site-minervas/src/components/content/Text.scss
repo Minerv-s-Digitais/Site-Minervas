@@ -1,90 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
+.html{
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
+}
+
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
-  margin: 22vw 0px 0px 6vw;
+  max-width: 85vw;
+  margin: 21vw auto;
   text-align: left;
 
   .title {
     font-family: 'Poppins', sans-serif;
     color: #3F005E;
     font-weight: 600;
-    font-size: 3.7vw;
+    font-size: 2.5rem;
+    margin-bottom: 1vh;
   }
 
   .description {
     width: 30vw;
     font-family: 'Lato', sans-serif;
     color: #1F1F1F;
-    font-size: 1.6vw;
-    margin-bottom: 6vh;
+    font-size: 1.3rem;
+    margin-bottom: 2vh;
     text-align: left;
   }
 
   .button-box {
-    text-align: center;
-  }
-
-  .button {
-    background-image: linear-gradient(to top, #AE7CC6 0%, #3F005E 100%);
-    font-size: 1.6vw;
-    width: 19vw;
-  }
-
-  @media screen and (max-width: 1080px){
-    .title {
-      font-size: 4.1vw;
-    }
-  
-    .description {
-      width: 37vw;
-      font-size: 1.9vw;
-      margin-bottom: 4vw;
-    }
-  }
-}
-
-@media screen and (max-width: 960px){
-  .content {
-    margin: 30vw 0px 0px 6vw;
-
-    .title {
-      font-size: 4.2vw;
-    }
+    width: 200px;
+    height: 6%;
+    margin-left: 7%;
 
     .button {
-      font-size: 1.9vw;
-      width: 19vw;
+      width: 200px;
+      background-image: linear-gradient(to top, #AE7CC6 0%, #3F005E 100%);
+      font-size: 1.3rem;
     }
   }
-
-  @media screen and (max-width: 780px){
-    .content {
-      margin: -1% 0% 25% 14%;
-      text-align: center;
-      max-width: 72%;
-  
-      .title {
-        font-size: 7vw;
-      }
-
-      .description {
-        width: 85%;
-        font-size: 3.3vw;
-        margin-bottom: 9vw;
-        margin-left: 6%;
-        text-align: center;
-      }
-  
-      .button {
-        font-size: 3.5vw;
-        width: 50vw;
-        height: 10vw;
-      }
-    }
-  }
-
 }
-
