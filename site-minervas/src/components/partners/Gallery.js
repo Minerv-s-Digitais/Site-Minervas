@@ -143,7 +143,7 @@ class Carousel extends React.Component {
         <Slider {...settings}>
           <div className='carrossel-item'>
             <img
-              style={{ height: '80%', width: '80%', margin: 'auto'}}
+              style={{ height: '80%', margin: 'auto'}}
               src={logoEducaDigital}
               role="presentation"
               alt="Educa Digital"
@@ -159,7 +159,7 @@ class Carousel extends React.Component {
           </div>
           <div className='carrossel-item'>
             <img
-              style={{ height: '80%', width: '80%', margin: 'auto'}}
+              style={{ height: '80%', margin: 'auto'}}
               src={logoManamano}
               role="presentation"
               alt="ManaMano"
@@ -175,7 +175,7 @@ class Carousel extends React.Component {
           </div>
           <div className='carrossel-item'>
             <img
-              style={{ height: '80%', width: '80%', margin: 'auto'}}
+              style={{ height: '80%', margin: 'auto'}}
               src={logoTangua}
               role="presentation"
               alt="Tanguá"
