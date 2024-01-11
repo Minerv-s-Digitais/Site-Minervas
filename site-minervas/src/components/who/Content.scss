@@ -27,12 +27,15 @@
     height: 80%;
     width: 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     
     .image-who {
-      width: 70%;   
-      height: 70%; 
+      position: relative;
+      width: 90%;
+      max-width: 654.7px;
+      max-height: 368.267px;
+      border-radius: 25px;
     }
   }
 }
@@ -97,8 +100,8 @@
   *{transition: ease all .3s;}
   .who-conteudo-direito {
     .image-who {
-      width: 85% !important;  
-      height: 85% !important;  
+      width: 100% !important;  
+      height: 70% !important;  
     }
   }
   .who-content-background{
