@@ -170,7 +170,7 @@ class Carousel extends React.Component {
               disableElevation
               onClick={this.handleClick2}
             >
-              ManoMano
+              ManaMano
             </ColorButton>
           </div>
           <div className='carrossel-item'>
