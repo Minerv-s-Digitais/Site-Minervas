@@ -14,11 +14,15 @@
     opacity: 0.45;
 }
 
-.text{
+.text-image{
     font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0px;
+    width: 90%;
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -26,7 +30,7 @@
     color: white;
 }
 
-.container:hover .text{
+.container:hover .text-image{
     opacity: 1;
 }
 

@@ -17,31 +17,31 @@ const Carousel1 = () => {
     const item = [
         <div className='container'>
             <img className='item' src={photo01} alt="Recepção alunos CP II 01" />
-            <div className='text'>Recepção alunos do Colégio Pedro II</div>
+            <div className='text-image'>Recepção alunos do Colégio Pedro II</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo02} alt="Recepção alunos CP II 02" />
-            <div className='text'>Recepção alunos do Colégio Pedro II</div>
+            <div className='text-image'>Recepção alunos do Colégio Pedro II</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo03} alt="Arduíno em Tanguá 01" />
-            <div className='text'>Arduíno em Tanguá</div>
+            <div className='text-image'>Arduíno em Tanguá</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo04} alt="Arduíno em Tanguá 02" />
-            <div className='text'>Arduíno em Tanguá</div>
+            <div className='text-image'>Arduíno em Tanguá</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo05} alt="Arduíno em Tanguá 03" />
-            <div className='text'>Arduíno em Tanguá</div>
+            <div className='text-image'>Arduíno em Tanguá</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo06} alt="Jornad@s: Conhecimento" />
-            <div className='text'>Jornad@s: Conhecimento</div>
+            <div className='text-image'>Jornad@s: Conhecimento</div>
         </div>,
         <div className='container'>
             <img className='item' src={photo07} alt="MinervaJam: Prototipagem" />
-            <div className='text'>MinervaJam: Prototipagem</div>
+            <div className='text-image'>MinervaJam: Prototipagem</div>
         </div>,
     ]
     return (

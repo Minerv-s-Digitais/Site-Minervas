@@ -17,31 +17,31 @@ const Carousel2 = () => {
     const items = [
         <div className='container'>
             <img src={photo08} className='item' alt="Foto ManaMano 01" />
-            <div className='text'>ManaMano</div>
+            <div className='text-image'>ManaMano</div>
         </div>,
         <div className='container'>
             <img src={photo09} className='item' alt="Foto ManaMano 02" />
-            <div className='text'>ManaMano</div>
+            <div className='text-image'>ManaMano</div>
         </div>,
         <div className='container'>
             <img src={photo10} className='item' alt="Foto ManaMano 03" />
-            <div className='text'>ManaMano</div>
+            <div className='text-image'>ManaMano</div>
         </div>,
         <div className='container'>
             <img src={photo11} className='item' alt="Foto Manamano 04" />
-            <div className='text'>ManaMano</div>
+            <div className='text-image'>ManaMano</div>
         </div>,
         <div className='container'>
             <img src={photo12} className='item' alt="Foto Manamano 05" />
-            <div className='text'>ManaMano</div>
+            <div className='text-image'>ManaMano</div>
         </div>,
         <div className='container'>
             <img src={photo13} className='item' alt="Visita técnica no SESC" />
-            <div className='text'>Visita técnica no SESC</div>
+            <div className='text-image'>Visita técnica no SESC</div>
         </div>,
         <div className='container'>
             <img src={photo14} className='item' alt="Semana Nacional de Ciência e Tecnologia" />
-            <div className='text'>Semana Nacional de Ciência e Tecnologia</div>
+            <div className='text-image'>Semana Nacional de Ciência e Tecnologia</div>
         </div>,
 
 
