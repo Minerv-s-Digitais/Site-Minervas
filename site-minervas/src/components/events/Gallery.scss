@@ -10,6 +10,30 @@
     }
 }
 
+.container:hover .item{
+    opacity: 0.45;
+}
+
+.text-image{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0px;
+    width: 90%;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+    color: white;
+}
+
+.container:hover .text-image{
+    opacity: 1;
+}
+
 .swiper {
     @media (max-width: 500px) {
         padding: 39px !important;

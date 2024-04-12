@@ -3,15 +3,12 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
-import photo18102023 from "../../assets/insta-photo18-10-2023.jpg"
-import photo10102023 from "../../assets/insta-photo10-10-2023.jpg"
-import photo19092023 from "../../assets/insta-photo19-09-2023.jpg"
-import photo18082023 from "../../assets/insta-photo18-08-2023.jpg"
-import photo10082023 from "../../assets/insta-photo10-08-2023.jpg"
-import photo26072023 from "../../assets/insta-photo26-07-2023.jpg"
-import photo28062023 from "../../assets/insta-photo28-06-2023.jpg"
-import photo18062023 from "../../assets/insta-photo18-06-2023.jpg"
-import photo25052023 from "../../assets/insta-photo25-05-2023.jpg"
+import photo22012024 from "../../assets/insta-photo22-01-2024.jpg"
+import photo31122023 from "../../assets/insta-photo31-12-2023.jpg"
+import photo25122023 from "../../assets/insta-photo25-12-2023.jpg"
+import photo24112023 from "../../assets/insta-photo24-11-2023.jpg"
+import photo22112023 from "../../assets/insta-photo22-11-2023.jpg"
+import photo14112023 from "../../assets/insta-photo14-11-2023.jpg"
 import Text from "./Text"
 
 import "./Net.scss"
@@ -40,34 +37,34 @@ function Net() {
         <Text click={() => handleClick()}  />
         <div className="imagens-grid-net">
           <Grid  container spacing={5}>
-          <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
+            <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo18102023} className="line1" alt="post-minervas1" onClick={() => redirectToLink('https://www.instagram.com/p/CyjbmLjpEuF/') }/>
+                <img src={photo22012024} className="line1" alt="post-minervas1" onClick={() => redirectToLink('https://www.instagram.com/p/C2ZzJhErRD-/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo10102023} className="line1" alt="post-minervas2" onClick={() => redirectToLink('https://www.instagram.com/p/CyO1XBMJB4l/?img_index=1') }/>
+                <img src={photo31122023} className="line1" alt="post-minervas2" onClick={() => redirectToLink('https://www.instagram.com/p/C1imyJbLpve/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo19092023} className="line1" alt="post-minervas3" onClick={() => redirectToLink('https://www.instagram.com/p/CxYg-mYpiny/') }/>
+                <img src={photo25122023} className="line1" alt="post-minervas3" onClick={() => redirectToLink('https://www.instagram.com/p/C1RkJRFOVnh/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo18082023} className="line1" alt="post-minervas4" onClick={() => redirectToLink('https://www.instagram.com/p/CwGkaa_JI5H/') }/>
+                <img src={photo24112023} className="line1" alt="post-minervas4" onClick={() => redirectToLink('https://www.instagram.com/p/C0CRZBSr4kK/?img_index=1') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo10082023} className="line1" alt="post-minervas5" onClick={() => redirectToLink('https://www.instagram.com/p/CvyLVx9JO5Z/?img_index=1') }/>
+                <img src={photo22112023} className="line1" alt="post-minervas5" onClick={() => redirectToLink('https://www.instagram.com/p/Cz9-oMypFsd/') }/>
               </Item>
             </Grid>
             <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
               <Item>
-                <img src={photo26072023} className="line1" alt="post-minervas6" onClick={() => redirectToLink('https://www.instagram.com/p/CvLWGrIpfJn/') }/>
+                <img src={photo14112023} className="line1" alt="post-minervas6" onClick={() => redirectToLink('https://www.instagram.com/p/Czo1SgPJWvn/?img_index=1') }/>
               </Item>
             </Grid>
           </Grid>
