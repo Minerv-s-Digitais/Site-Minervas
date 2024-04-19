@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import vector from "../../../assets/actions/actions-yellow-vector.svg";
 import "./ActionsContent.scss";
+import Card from "./Card";
+
+import arrowDown from "../../../assets/actions/arrow-down.svg";
+import arrowRight from "../../../assets/actions/arrow-right.svg";
+import newTab from "../../../assets/actions/new-tab.svg";
+
 
 function ActionsContent() {
   const [paddingTop, setPaddingTop] = useState(0);
@@ -31,12 +37,28 @@ function ActionsContent() {
       <div style={{ height: 140 }}></div>
       <div className="actions-title" id="Actions">
         Ações
-        <img className="vector" src={vector} alt="Tracinho amarelo" style={{ width: "3%" }}/>
+        <img className="vector" src={vector} alt="Tracinho amarelo" style={{ width: "40px" }}/>
       </div>
-      <div
-        className="actions-content"
-        style={{ paddingTop: `${paddingTop}px` }}
-      ></div>
+      <div className="actions-content" style={{ paddingTop: `${paddingTop}px` }}>
+        <Card
+          title={"Levantamentos"}
+          description={"Explore métricas e pesquisas realiadas sobre a temática feminina na tecnologia."}
+          icon={ arrowRight }
+          link={ "https://www.google.com"}> {/* aqui vai ter o link para levantamentos! */ }
+        </Card>
+        <Card
+          title={"Palestras e Cursos"}
+          description={"Acesso ao canal do Youtube contendo as palestras e cursos ministrados."}
+          icon={ newTab }
+          link={ "https://www.youtube.com/@minervasdigitais2893"}>
+        </Card>
+        <Card
+          title={"Materiais"}
+          description={"Reunião de materiais realizados e disponibilizados pelo Minerv@s Digitais."}
+          icon={ arrowDown }
+          link={ "https://www.google.com"}> {/* aqui vai ter o link para o drive! */ }
+        </Card>
+      </div>
     </>
   );
 }
