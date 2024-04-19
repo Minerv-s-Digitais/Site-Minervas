@@ -18,16 +18,16 @@ function Footer() {
         </div>
         <div className="social-icons">
           <a href="https://www.instagram.com/minervasdigitaisufrj/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} style={{color: "#FFFFFF"}} size="xl" />
+            <FontAwesomeIcon icon={faInstagram} style={{color: "#FFFFFF"}} size={window.innerWidth>="970" ? "2xl" : "lg"} />
           </a> 
           <a href="https://www.youtube.com/@minervasdigitais2893" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faYoutube} style={{color: "#FFFFFF"}} size="xl" />
+            <FontAwesomeIcon icon={faYoutube} style={{color: "#FFFFFF"}} size={window.innerWidth>="970" ? "2xl" : "lg"} />
           </a>
           <a href="https://medium.com/minervas-digitais-ufrj" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faMedium} style={{color: "#FFFFFF"}} size="xl" />
+            <FontAwesomeIcon icon={faMedium} style={{color: "#FFFFFF"}} size={window.innerWidth>="970" ? "2xl" : "lg"} />
           </a>
           <a href="https://www.linkedin.com/in/minervas-digitais-ufrj/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} style={{color: "#FFFFFF"}} size="xl" />
+            <FontAwesomeIcon icon={faLinkedin} style={{color: "#FFFFFF"}} size={window.innerWidth>="970" ? "2xl" : "lg"} />
           </a>
         </div>
       </div>
@@ -36,17 +36,17 @@ function Footer() {
         <div className="top-logos">
           <div>
             <a href="https://meninas.sbc.org.br/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
-            <img src={logoMeninasDigitais} alt="Logo do projeto parceiro Meninas Digitais" style={{ width: "242px"}} />
+            <img className="logoMeninasDigitais" src={logoMeninasDigitais} alt="Logo do projeto parceiro Meninas Digitais" />
             <div className="project-text">Projeto Parceiro</div>
             </a>
           </div>
           <a href="https://www.dcc.ufrj.br/" target="_blank" rel="noopener noreferrer">
-          <img src={logoIC} alt="Logo do Instituto de Computação da UFRJ (IC)" style={{ width: "240px"}} />
+          <img className="logoIC" src={logoIC} alt="Logo do Instituto de Computação da UFRJ (IC)" />
           </a>
         </div>
         <div className="bottom-logo">
           <a href="https://www.sbc.org.br/" target="_blank" rel="noopener noreferrer">
-          <img src={logoSBC} alt="Logo da Sociedade Brasileira de Computação (SBC)" style={{ width: "730px"}} />
+          <img className="logoSBC" src={logoSBC} alt="Logo da Sociedade Brasileira de Computação (SBC)" />
           </a>
         </div>
       </div>
