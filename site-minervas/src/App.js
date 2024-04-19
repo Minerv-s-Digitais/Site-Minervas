@@ -1,9 +1,19 @@
+import React from 'react';
 import './App.css';
 import Home from '../src/pages/Home/Home'
+import Actions from '../src/pages/Actions/Actions'
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Home/>
+    <React.Fragment>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/acoes" element={<Actions />} />
+        </Routes>
+      </BrowserRouter>
+    </React.Fragment>
   );
 }
 
