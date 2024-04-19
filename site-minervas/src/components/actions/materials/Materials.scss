@@ -1,0 +1,15 @@
+.actions-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.materials-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 72px;
+    color: #3F005E;
+    display: grid;
+    gap: 6px;
+    text-align: center;
+}
