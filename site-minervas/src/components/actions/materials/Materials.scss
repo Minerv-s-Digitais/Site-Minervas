@@ -62,9 +62,7 @@
 #art7, 
 #art8,
 #art9 {
-    background-color: lightgray; /* Apenas para visualização */
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: 2rem;
     width: 193.55px;
@@ -79,6 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .blur-text{
@@ -95,10 +94,10 @@
 }
 
 
-.art1:hover .blur,
-.art2:hover .blur,
-.art3:hover .blur,
-.art4:hover .blur,
+.art1:hover .blur, .logo1:hover .blur,
+.art2:hover .blur, .logo2:hover .blur,
+.art3:hover .blur, .logo3:hover .blur,
+.art4:hover .blur, .logo4:hover .blur,
 .art5:hover .blur,
 .art6:hover .blur,
 .art7:hover .blur,
@@ -114,21 +113,16 @@
     }
 }
 
-.art1:hover .blur-text,
-.art2:hover .blur-text,
-.art3:hover .blur-text,
-.art4:hover .blur-text,
+.art1:hover .blur-text, .logo1:hover .blur-text,
+.art2:hover .blur-text, .logo2:hover .blur-text,
+.art3:hover .blur-text, .logo3:hover .blur-text,
+.art4:hover .blur-text, .logo4:hover .blur-text,
 .art5:hover .blur-text,
 .art6:hover .blur-text,
 .art7:hover .blur-text,
 .art8:hover .blur-text,
 .art9:hover .blur-text {
     display: flex; /* Exibir o botão "Baixar" quando hover */
-}
-
-.arts-panel > div:hover {
-    background-color: #D2AFE3;
-    backdrop-filter: blur(50px);
 }
 
 .logos{
@@ -159,14 +153,18 @@
     padding-top: 20px;   
 }
 
-.logos-panel > div {
-    background-color: lightgray;
+.logos-panel > div,
+#logo1, 
+#logo2,
+#logo3, 
+#logo4 {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
     width: 184.66px;
-    height: 162.87px;
+    height: fit-content;
     border-radius: 20px;
     border: 1px solid #D2AFE3;
 }  
@@ -182,6 +180,89 @@
     }
 }
 
-@media screen and (max-width: 650px) {
-    /* diminuir o tamanho das coisas */
+@media screen and (max-width: 970px) {
+
+    .materials-buttons{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 20px;
+        
+
+        .button span{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .arts-panel {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .blur{
+        width: 140.6px;
+        height: 140.6px;
+    }
+
+    .arts-title{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 12px;
+    }
+
+    .arts-panel > div, 
+    #art1, 
+    #art2,
+    #art3, 
+    #art4,
+    #art5, 
+    #art6,
+    #art7, 
+    #art8,
+    #art9 {
+        width: 140.6px;
+    }
+
+    .logos{
+        margin-top: 60px;
+        margin-bottom: -200px; /* anulando o div style:200px em page/actions */
+        background-size: 365px;
+        background-position: center;
+    }
+
+    .logos-title{
+        font-size: 22px;
+    }
+
+    .logos-span{
+        font-size: 14px;
+    }
+
+    .logos-panel > div,
+    #logo1, 
+    #logo2,
+    #logo3, 
+    #logo4 {
+        width: 94.7px;
+
+        .blur{
+            width: 94.7px;
+            height: 94.7px;
+        }
+
+        .blur-text{
+            font-size: 14px;
+            width: 68px;
+            height: 34px;
+        }
+
+    }  
+
 }
