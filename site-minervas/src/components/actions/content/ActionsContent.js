@@ -44,19 +44,19 @@ function ActionsContent() {
           title={"Levantamentos"}
           description={"Explore métricas e pesquisas realiadas sobre a temática feminina na tecnologia."}
           icon={ arrowRight }
-          link={ "https://www.google.com"}> {/* aqui vai ter o link para levantamentos! */ }
+          link={ "https://www.google.com" }> {/* aqui vai ter o link para levantamentos! */ }
         </Card>
         <Card
           title={"Palestras e Cursos"}
           description={"Acesso ao canal do Youtube contendo as palestras e cursos ministrados."}
           icon={ newTab }
-          link={ "https://www.youtube.com/@minervasdigitais2893"}>
+          link={ "https://www.youtube.com/@minervasdigitais2893" }>
         </Card>
         <Card
           title={"Materiais"}
           description={"Reunião de materiais realizados e disponibilizados pelo Minerv@s Digitais."}
           icon={ arrowDown }
-          link={ "https://www.google.com"}> {/* aqui vai ter o link para o drive! */ }
+          link={ "#Materials" }> {/* aqui vai ter o link para o drive! (ou não) */ }
         </Card>
       </div>
     </>

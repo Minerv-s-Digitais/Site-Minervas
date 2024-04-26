@@ -70,3 +70,41 @@
         color: #FFFFFF;
     }
 }
+
+@media screen and (max-width: 970px) {
+
+    .card-container{
+        width: 55vw;
+        height: auto
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-description{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .base-superior {
+        height: 100px;
+    }
+
+    .base-inferior {
+        height: 21vh;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .card-title{
+        font-size: 16px;
+    }
+
+    .card-description{
+        font-size: 12px;
+    }
+
+}

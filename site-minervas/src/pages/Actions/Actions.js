@@ -11,7 +11,6 @@ function Actions() {
   return (
     <div className="actions" id="#">
       <Header />
-        <div>alooooo</div>
         <div><ActionsContent /></div>
         <div><Materials /></div>
         <div style={{ height: 200 }}></div>

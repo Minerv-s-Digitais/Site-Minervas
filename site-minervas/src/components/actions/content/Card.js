@@ -5,7 +5,7 @@ import "./Card.scss"
 import minerva from "../../../assets/actions/icon-minerva.svg"
 import ellipse from "../../../assets/actions/icon-ellipse.svg"
 
-function Card({ title , description, icon, link}) {
+function Card({ title , description, icon, link }) {
   return (
     <Link to={ link } smooth style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
     <div className="card-container">
