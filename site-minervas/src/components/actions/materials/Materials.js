@@ -77,7 +77,7 @@ function Materials() {
                 <img className="vector" src={vector} alt="Tracinho amarelo" style={{ width: "10%", paddingLeft: "9rem" }}/>
             </div>
             <div className="materials-buttons">
-                <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={() => openURL("https://www.google.com")}>
+                <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={() => openURL("https://linktr.ee/minervasdigitais")}>
                     Drive do Minerv@s →
                 </ColorButton>
                 <ColorButton variant="contained" color="primary" className='button' disableElevation onClick={() => openURL("https://medium.com/minervas-digitais-ufrj")}>
