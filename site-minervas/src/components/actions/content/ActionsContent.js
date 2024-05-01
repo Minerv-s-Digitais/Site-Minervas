@@ -7,6 +7,7 @@ import arrowDown from "../../../assets/actions/arrow-down.svg";
 import arrowRight from "../../../assets/actions/arrow-right.svg";
 import newTab from "../../../assets/actions/new-tab.svg";
 
+import relatorio from "../../../assets/Relatório_2023-Mulheres_nas_Graduações_deTI_UFRJ.pdf";
 
 function ActionsContent() {
   const [paddingTop, setPaddingTop] = useState(0);
@@ -44,7 +45,7 @@ function ActionsContent() {
           title={"Levantamentos"}
           description={"Explore métricas e pesquisas realiadas sobre a temática feminina na tecnologia."}
           icon={ arrowRight }
-          link={ "https://www.google.com" }> {/* aqui vai ter o link para levantamentos! */ }
+          link={ relatorio }> {/* aqui vai ter o link para levantamentos! */ }
         </Card>
         <Card
           title={"Palestras e Cursos"}
