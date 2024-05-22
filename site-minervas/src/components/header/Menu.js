@@ -16,19 +16,19 @@ function Menu({ menuOpen }) {
   return (
     <div className={`button-group ${menuOpen ? "open" : ""}`}>
          
-      <Link to ="#" smooth className="botao-navbar">
+      <Link to ="/#" smooth className="botao-navbar">
         Home
       </Link>
-      <Link to ="#Who" className="botao-navbar" scroll={el => scrollWithOffset(el, 90)}>
+      <Link to ="/#Who" className="botao-navbar" scroll={el => scrollWithOffset(el, 90)}>
         Quem Somos
       </Link>
-      <Link to ="#Events" className="botao-navbar" scroll={el => scrollWithOffset(el, 5)}>
+      <Link to ="/#Events" className="botao-navbar" scroll={el => scrollWithOffset(el, 5)}>
         Eventos
       </Link>
-      <Link to ="#Partners" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
+      <Link to ="/#Partners" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
         Parceiros
       </Link>
-      <Link to ="#Contact" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
+      <Link to ="/#Contact" className="botao-navbar" scroll={el => scrollWithOffset(el, 108)}>
         Contato
       </Link>
 

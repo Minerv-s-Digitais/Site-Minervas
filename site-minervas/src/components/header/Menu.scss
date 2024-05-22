@@ -1,6 +1,7 @@
 .button-group {
   display: flex;
   gap: 60px;
+  font-family: "Segoe UI";
 
   @media (max-width: 970px) {
     transform: translateX(100%);
