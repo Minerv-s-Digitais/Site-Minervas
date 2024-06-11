@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.botoes {
+  height: 50%;
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: absolute;
+}
+
+.botao-item1,
+.botao-item2,
+.botao-item3 {
+  width: 100%;
+  height: 100%;
+  background-color: #7927a3;
+  border-radius: 14px;
+  cursor: pointer;
+
+  .header-botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 37%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4%;
+  }
+
+  .header-image {
+    height: 60px;
+    width: 214px;
+    margin-top: 4%;
+  }
+
+  .botao-header {
+    height: 59%;
+    width: 17%;
+    border-radius: 50%;
+    background-color: #3f005e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icone-botao-header{
+    font-size: 1.3rem;
+    color: #c44bff;
+  }
+
+  .titulo-botao {
+    height: 15%;
+    background-color: #3f005e;
+    border-radius: 0 15px 15px 0;
+    width: 75%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    span {
+      margin-left: 7%;
+      font-size: 1.3rem;
+      color: #ffbd59;
+      font-weight: bold;
+    }
+  }
+
+  .texto-botao1 {
+    width: 90%;
+    margin: 0px auto 5%;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+    padding: 2% 0%;
+  }
+
+  .texto-botao2,
+  .texto-botao3 {
+    width: 90%;
+    margin: 0px auto 2%;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+    padding: 2% 0%;
+  }
+}
+
+.botao-item1:hover,
+.botao-item2:hover,
+.botao-item3:hover {
+  background-color: #ffffff;
+
+  .botao-header {
+    background-color: #ffbd59;
+  }
+
+  .icone-botao-header,
+  .texto-botao1,
+  .texto-botao2,
+  .texto-botao3 {
+    color: #3f005e;
+  }
+}
+
+@media (min-width: 960px) {
+  .MuiGrid-grid-md-12 {
+    max-width: 50% !important;
+  }
+
+  .botoes {
+    margin: 120px 0px 40px 0px;
+  }
+
+  .texto-botao3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .MuiGrid-grid-sm-12 {
+    max-width: 50% !important;
+  }
+
+  .botoes {
+    margin: 120px 0px 40px 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 880px) {
+  .botao-item1,
+  .botao-item2,
+  .botao-item3 {
+    .texto-botao1,
+    .texto-botao2,
+    .texto-botao3 {
+      font-size: 0.6rem;
+      width: 94%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .botoes {
+    margin-top: 113px;
+    margin-bottom: 5%;
+  }
+  .botao-item1,
+  .botao-item2,
+  .botao-item3 {
+    .texto-botao1,
+    .texto-botao2,
+    .texto-botao3 {
+      font-size: 0.8rem;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .botao-item1,
+  .botao-item2,
+  .botao-item3 {
+    .texto-botao1,
+    .texto-botao2,
+    .texto-botao3 {
+      font-size: 0.7rem;
+    }
+  }
+}
