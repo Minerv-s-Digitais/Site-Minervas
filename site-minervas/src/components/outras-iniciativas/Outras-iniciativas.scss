@@ -1,0 +1,58 @@
+.titulo-outras-iniciativas {
+  color: #3f005e;
+  width: 85vw;
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 5% 0;
+}
+
+.sessao-outras-iniciativas {
+  height: auto;
+  padding-bottom: 5%;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+  background-image: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 35%,
+    #3f005e 35%,
+    #3f005e 115%
+  );
+}
+
+@media (min-width: 600px) and (max-width: 1279px) {
+  .sessao-outras-iniciativas {
+    background-image: linear-gradient(
+      #fff 0%,
+      #fff 17%,
+      #3f005e 15%,
+      #3f005e 51%,
+      #fff 50%,
+      #fff 65%,
+      #3f005e 22%,
+      #3f005e 100%
+    );
+  }
+}
+
+@media (max-width: 600px) {
+  .sessao-outras-iniciativas {
+    background-image: linear-gradient(
+      #ffffff 0%,
+      #fff 12.666%,
+      #3f005e 11.666%,
+      #3f005e 32.1%,
+      31.333%,
+      white 33.333%,
+      white 45%,
+      #3f005f 40%,
+      #3f005e 64.1%,
+      #fff 61.666%,
+      #ffffff 76.333%,
+      #3f005e 76.333%,
+      #3f005e 100%
+    );
+    padding: 7% 0% 7% 0%;
+  }
+}

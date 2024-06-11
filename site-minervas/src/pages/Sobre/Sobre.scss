@@ -1,0 +1,347 @@
+body,
+.Home {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-sobre {
+  height: 148px;
+  width: 100vw;
+}
+
+.titulo-sobre {
+  width: 85vw;
+  height: auto;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center !important;
+  margin: auto;
+  color: #3f005e;
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.descricao-sobre {
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  margin: auto;
+  padding-bottom: 4%;
+}
+
+.titulo-projetos-integrados {
+  width: 85vw;
+  height: auto;
+  font-size: 3rem;
+  display: flex;
+  margin: auto;
+  color: #3f005e;
+  padding: 0% 4% 0% 4%;
+}
+
+.projetos-integrados {
+  min-height: 74vh;
+  max-height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  justify-content: center;
+  background-image: url(../../assets/teste-back.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sessao-o-que-nos-move-bg {
+  height: 112px;
+  width: 46vw;
+  background-image: url(../../assets/bg_o_que_nos_move.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.titulo-o-que-nos-move {
+  width: 85vw;
+  height: auto;
+  font-size: 3rem;
+  display: flex;
+  color: #ffffff;
+  padding: 0% 4% 0% 6.3%;
+  position: absolute;
+}
+
+.o-que-nos-move {
+  height: 513px;
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+
+  .background-o-que-nos-move {
+    padding: 2%;
+  }
+}
+
+.conteudo-card-motivacoes1,
+.conteudo-card-motivacoes3 {
+  display: flex;
+  align-items: center;
+  width: 62%;
+  height: 148px;
+  justify-content: center;
+  position: relative;
+
+  .background-o-que-nos-move1,
+  .background-o-que-nos-move3 {
+    height: 100%;
+    width: 85%;
+  }
+
+  .numero-card-motivacoes1,
+  .numero-card-motivacoes3 {
+    height: 80%;
+    width: 16%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: #3f005e;
+    font-weight: 800;
+    left: 0px;
+    background-color: #ffbd59;
+    border: 8px solid #ffffff;
+  }
+
+  .texto-motivacoes1 {
+    height: auto;
+    min-height: 4%;
+    width: 62%;
+    position: absolute;
+    left: 22%;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .texto-motivacoes3 {
+    height: auto;
+    min-height: 4%;
+    width: 62%;
+    position: absolute;
+    left: 22%;
+    color: white;
+    font-size: 0.8rem;
+    width: 54%;
+    padding-top: 2.5%;
+  }
+}
+
+.conteudo-card-motivacoes2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 62%;
+  height: 148px;
+  justify-content: center;
+
+  .background-o-que-nos-move2 {
+    height: 100%;
+    width: 85%;
+    transform: rotateY(180deg);
+  }
+
+  .numero-card-motivacoes2 {
+    height: 80%;
+    width: 16%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: #3f005e;
+    font-weight: 800;
+    right: 0px;
+    z-index: 1;
+    background-color: #ffbd59;
+    border: 8px solid #ffffff;
+  }
+
+  .texto-motivacoes2 {
+    width: 61%;
+    height: auto;
+    padding-top: 3%;
+    min-height: 38%;
+    margin: 0px;
+    position: absolute;
+    right: 22%;
+    color: white;
+    text-align: right;
+    font-size: 0.8rem;
+  }
+}
+
+.sessao-nossa-equipe {
+  height: 600px;
+  width: 100%;
+  background-color: #3f005e;
+  margin-bottom: 60px;
+  // clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 70%, 100% 79%, 30% 71%, 0 71%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 96%, 48% 90%, 0 90%, 0 0);
+
+  .titulo-nossa-equipe {
+    width: 85vw;
+    height: auto;
+    font-size: 3rem;
+    display: flex;
+    color: #ffffff;
+    padding: 3% 4% 0% 6.3%;
+  }
+
+  .conteudo-nossa-equipe {
+    width: 87vw;
+    margin: auto;
+    height: 62%;
+  }
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.item-carousel-quem-somos {
+  min-height: 281px;
+  min-width: 350px;
+  padding: 14px;
+}
+
+.item-carousel-quem-somos img {
+  height: 100%;
+  width: 100%;
+  border-radius: 14px;
+  pointer-events: none;
+}
+
+// @media (min-height: 1100px) and (min-width: 1000px) {
+//   .projetos-integrados {
+//     min-height: 52vh !important ;
+//   }
+// }
+
+@media (min-width: 600px) and (max-width: 880px) {
+  .projetos-integrados {
+    min-height: 49vh;
+  }
+
+  .sessao-o-que-nos-move-bg {
+    width: 69vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .conteudo-card-motivacoes1,
+  .conteudo-card-motivacoes2,
+  .conteudo-card-motivacoes3 {
+    width: 97%;
+
+    .texto-motivacoes2 {
+      height: 86px;
+      width: 58%;
+    }
+    .texto-motivacoes3 {
+      height: 51px;
+      width: 66%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .o-que-nos-move {
+    width: 82%;
+    margin-left: 10%;
+  }
+
+  .conteudo-card-motivacoes1,
+  .conteudo-card-motivacoes2,
+  .conteudo-card-motivacoes3 {
+    background-color: #3f005e;
+    width: 83vw;
+    border-radius: 20% 1% 1% 20%;
+    margin: 3% 0px;
+
+    .numero-card-motivacoes1,
+    .numero-card-motivacoes2,
+    .numero-card-motivacoes3 {
+      width: 23%;
+      left: -32px;
+      border-radius: 50%;
+    }
+
+    .texto-motivacoes1,
+    .texto-motivacoes2,
+    .texto-motivacoes3 {
+      left: 23% !important;
+      text-align: left;
+      width: 73%;
+      font-size: 0.8em;
+    }
+
+    .background-o-que-nos-move1,
+    .background-o-que-nos-move2,
+    .background-o-que-nos-move3 {
+      display: none;
+    }
+  }
+
+  .sessao-o-que-nos-move-bg {
+    width: 73vw;
+  }
+  .titulo-sobre,
+  .titulo-projetos-integrados {
+    font-size: 2rem;
+  }
+  .titulo-o-que-nos-move {
+    font-size: 1.8rem;
+    margin-left: 3%;
+  }
+
+  .numero-card-motivacoes1,
+  .numero-card-motivacoes2,
+  .numero-card-motivacoes3 {
+    height: 54% !important;
+  }
+
+  .titulo-nossa-equipe{
+    font-size: 2rem !important;
+    padding: 8% 4% 0% 6.3% !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .titulo-o-que-nos-move {
+    font-size: 1.4rem;
+  }
+}
