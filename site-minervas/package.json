@@ -1,7 +1,7 @@
 {
   "name": "site-minervas",
   "version": "0.1.0",
-  "homepage": "https://Minervas-Digitais.github.io/Site-Minervas",
+  "homepage": "https://minervas-digitais.github.io/Site-Minervas/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
