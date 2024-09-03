@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Site-Minervas/static/css/main.99ba62e9.css",
-    "main.js": "/Site-Minervas/static/js/main.4762436d.js",
+    "main.js": "/Site-Minervas/static/js/main.cae0d77f.js",
     "static/js/787.5cc16608.chunk.js": "/Site-Minervas/static/js/787.5cc16608.chunk.js",
     "static/media/event-minervaJam-prototipagem-01.jpg": "/Site-Minervas/static/media/event-minervaJam-prototipagem-01.0067d6c156d98b7b9fc1.jpg",
     "static/media/Relatório_2023-Mulheres_nas_Graduações_deTI_UFRJ.pdf": "/Site-Minervas/static/media/Relatório_2023-Mulheres_nas_Graduações_deTI_UFRJ.c362ea83fe15986d9c9d.pdf",
@@ -70,11 +70,11 @@
     "static/media/actions-yellow-vector.svg": "/Site-Minervas/static/media/actions-yellow-vector.854bdb45f925b6eba518d3998e96eb2d.svg",
     "static/media/icon-ellipse.svg": "/Site-Minervas/static/media/icon-ellipse.fbef6aabb83553d4259f1059465cb1ec.svg",
     "main.99ba62e9.css.map": "/Site-Minervas/static/css/main.99ba62e9.css.map",
-    "main.4762436d.js.map": "/Site-Minervas/static/js/main.4762436d.js.map",
+    "main.cae0d77f.js.map": "/Site-Minervas/static/js/main.cae0d77f.js.map",
     "787.5cc16608.chunk.js.map": "/Site-Minervas/static/js/787.5cc16608.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99ba62e9.css",
-    "static/js/main.4762436d.js"
+    "static/js/main.cae0d77f.js"
   ]
 }
