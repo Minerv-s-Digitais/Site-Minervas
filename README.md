@@ -1,3 +1,16 @@
+# Servindo o projeto
+Considerando que você já tenha clonado o projeto, basta seguir os comandos abaixo:
+
+* Para atualizar as dependências utilizadas no projeto e evitar erros na inicialização do mesmo:
+```shell
+npm install
+```
+
+* Para inicializar o projeto:
+```shell
+npm start
+```
+
 # Deploy
 O deploy é realizado na branch "gh-pages" e, automaticamente, através do comando:
 
